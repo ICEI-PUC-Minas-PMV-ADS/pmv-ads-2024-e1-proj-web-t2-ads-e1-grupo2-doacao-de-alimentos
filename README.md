@@ -6,7 +6,7 @@
 
 `1º semestre/2024`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+Nossa plataforma está comprometida em combater o problema da fome e o desperdício de comida, conectando doadores de alimentos a organizações de caridade e comunidades carentes. Juntos, podemos reduzir o desperdício e garantir que menos gente sofra com a fome.
 
 ## Integrantes
 
