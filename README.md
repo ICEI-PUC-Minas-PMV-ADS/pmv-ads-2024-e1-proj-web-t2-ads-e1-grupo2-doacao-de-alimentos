@@ -6,7 +6,7 @@
 
 `1º semestre/2024`
 
-Nossa plataforma está comprometida em combater o problema da fome e o desperdício de comida, conectando doadores de alimentos a organizações de caridade e comunidades carentes. Juntos, podemos reduzir o desperdício e garantir que menos gente sofra com a fome.
+Nossa plataforma está comprometida em combater o problema da fome e o desperdício de comida, conectando doadores de alimentos a organizações de caridade e comunidades carentes. Juntos, podemos reduzir o desperdício e garantir que menos gente sofra com esse grave problema.
 
 ## Integrantes
 
