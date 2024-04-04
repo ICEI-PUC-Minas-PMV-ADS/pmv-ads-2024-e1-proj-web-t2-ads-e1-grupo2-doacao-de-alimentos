@@ -84,10 +84,19 @@ A importância de trabalhar com o problema do desperdício excessivo de alimento
 
 O público-alvo da nossa plataforma é diversificado e inclui diferentes grupos de pessoas e organizações:
 
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
+### 1. Doadores de Alimentos:
+<ul>
+<li>Restaurantes, supermercados, padarias e outros estabelecimentos que têm alimentos excedentes. Empresas agrícolas e produtores que desejam evitar o desperdício de colheitas. </li>
+</ul>
 
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+### 2. ONGs e Projetos Sociais:
+<ul>
+<li>ONGs, abrigos, projetos sociais e outras instituições que atendem pessoas em situação de vulnerabilidade. Essas organizações podem receber os alimentos doados e distribuí-los de maneira eficiente.</li>
+</ul>
+
+### 3. Voluntários e Ativistas:
+<ul>
+<li>Pessoas dispostas a dedicar seu tempo para coletar, transportar e distribuir alimentos. Aqueles que desejam conscientizar sobre o desperdício de alimentos e promover mudanças.</li>
+</ul>
+
+Em resumo, nossa plataforma visa unir esforços de diferentes partes interessadas para criar um impacto positivo na luta contra o desperdício de alimentos e garantir que todos tenham acesso a refeições nutritivas.
