@@ -53,17 +53,36 @@ Juntos, podemos fazer a diferença e criar um mundo mais justo e sustentável.
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+A importância de trabalhar com o problema do desperdício excessivo de alimentos é multifacetada e impacta tanto a sociedade quanto o meio ambiente. Aqui estão algumas razões cruciais para abordar esse desafio:
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
+### 1. Combate à Fome e Insegurança Alimentar:
+<ul>
+<li>Milhões de pessoas em todo o mundo sofrem de fome e desnutrição. Reduzir o desperdício de alimentos significa que mais comida estará disponível para aqueles que precisam. Ao conectar doadores a organizações de caridade, podemos garantir que os alimentos excedentes sejam direcionados para as pessoas certas.</li>
+</ul>
 
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+### 2. Sustentabilidade Ambiental:
+<ul>
+<li>O desperdício de alimentos tem um impacto significativo no meio ambiente. A produção, transporte e descarte de alimentos consomem recursos naturais, água e energia. Quando os alimentos são jogados fora, também contribuem para as emissões de gases de efeito estufa.</li>
+</ul>
+
+### 3. Ecônomia e Eficência:
+<ul>
+<li>Reduzir o desperdício de alimentos economiza dinheiro para famílias, empresas e governos. Melhorar a eficiência na cadeia de suprimentos alimentar resulta em benefícios econômicos.</li>
+</ul>
+
+### 4. Conscientização e Mudança de Comportamento:
+<ul>
+<li>Trabalhar nesse problema aumenta a conscientização sobre a importância de valorizar os alimentos. Pode inspirar mudanças de comportamento em indivíduos, empresas e instituições.</li>
+</ul>
+
+### 4. Responsabilidade Coletiva:
+<ul>
+<li>Todos nós compartilhamos a responsabilidade de cuidar do nosso planeta e de nossos semelhantes. Abordar o desperdício de alimentos é uma maneira tangível de fazer a diferença. Em resumo, trabalhar para reduzir o desperdício de alimentos é uma ação concreta que beneficia a todos: desde os mais vulneráveis até o nosso ecossistema global. </li>
+</ul>
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
+O público-alvo da nossa plataforma é diversificado e inclui diferentes grupos de pessoas e organizações:
 
 Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
 
