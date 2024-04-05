@@ -1,12 +1,15 @@
 # Introdução
 
   O desperdício excessivo de alimentos é uma questão urgente que afeta restaurantes, supermercados e lares em todo o mundo. Enquanto muitas pessoas enfrentam fome e insegurança alimentar, uma parcela significativa da produção mundial de alimentos é jogada fora. Essa situação é insustentável e exige soluções inovadoras.
+  
   No Brasil, essa problemática assume contornos preocupantes. Apesar de ser um dos maiores produtores agrícolas do mundo, o país enfrenta desafios significativos em relação ao desperdício de alimentos e à insegurança alimentar. Dados do Instituto Brasileiro de Geografia e Estatística (IBGE) indicam que aproximadamente 19 milhões de brasileiros vivem em situação de insegurança alimentar grave, enquanto uma parte considerável da produção nacional de alimentos é perdida ao longo da cadeia de suprimentos.
 
 ## Problema
 
   Essa realidade é especialmente crítica quando observamos o contexto global, no qual a FAO (Organização das Nações Unidas para a Alimentação e Agricultura) estima que anualmente, aproximadamente 14% dos alimentos que produzimos são perdidos durante o trajeto desde a colheita até chegarem às prateleiras das lojas. Adicionalmente, varejistas e consumidores acabam desperdiçando mais 17% dessa produção. Essa perda e desperdício de alimentos não apenas têm impacto direto na disponibilidade de comida, mas também contribuem significativamente para a crise climática, representando até 10% das emissões globais de gases de efeito estufa.
+  
   Em alguns países, a cadeia de abastecimento alimentar está se tornando uma fonte ainda maior de emissões do que a agricultura e o uso da terra, intensificando a instabilidade climática e eventos extremos como secas e tempestades. Isso, por sua vez, compromete a produção e a qualidade das colheitas, ampliando o desperdício de alimentos e aumentando ainda mais os desafios relacionados à segurança alimentar e à nutrição. No Brasil, isso se traduz em um enorme impacto socioeconômico e ambiental, considerando que o país é um dos maiores produtores agrícolas do mundo.
+  
   Os dados revelam a urgência de encontrar soluções eficazes para reduzir o desperdício de alimentos e, ao mesmo tempo, garantir que todos tenham acesso a uma alimentação adequada.
 
 ## Objetivos
