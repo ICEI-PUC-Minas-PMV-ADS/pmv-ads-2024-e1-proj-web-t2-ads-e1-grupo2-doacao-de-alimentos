@@ -1,5 +1,8 @@
 # Referências
 
+
+https://aws.amazon.com/pt/what-is/scrum/#:~:text=O%20Scrum%20é%20um%20framework,uma%20entrega%20eficiente%20de%20projetos.
+
 Inclua todas as referências (livros, artigos, sites, etc) utilizados no desenvolvimento do trabalho.
 
 > **Links Úteis**:
