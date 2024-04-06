@@ -13,7 +13,7 @@ A divisão de papéis do grupo baseada na divisão do SCRUM(Scrum Master, Produc
 <ul>
 <li>Scrum Master: Rodrigo Amorim;</li>
 <li>Product Owner: Danilo Oliveira;</li>
-<li>Equipe de Desenvolvimento: Rodrigo Amorim, Fabio Luiz, Ana Zschaber, Danilo Oliveira e Cezar Ribeiro.</li>
+<li>Equipe de Desenvolvimento: Rodrigo Amorim, Fabio Luiz,Laise Farias France, Ana Zschaber, Danilo Oliveira e Cezar Ribeiro.</li>
 </ul>
 
 
