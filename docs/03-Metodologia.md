@@ -30,7 +30,28 @@ Para organização e distribuição das tarefas do projeto, a equipe está utili
 O quadro kanban do grupo no GitHub está presente no link: https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/963/views/1 e esta apresentado no estado atual da seguinte forma:
 <figure>
     <img src="img/quadroKanban.jpeg">
+    <figcaption> Figura 1 - Tela do kanban do GitHub utilizada pelo grupo</figcaption>
 </figure>
+
+### Etiquetas
+
+As tarefas são, ainda, etiquetadas em função da natureza da atividade e seguem o seguinte esquema de cores/categorias:
+
+<ul>
+  <li>Bug (Erro no código)</li>
+  <li>Desenvolvimento (Development)</li>
+  <li>Documentação (Documentation)</li>
+  <li>Gerência de Projetos (Project Management)</li>
+  <li>Atenção Extra (Help Wanted)</li>
+  <li>Prototipo (Prototype)</li>
+  <li>Testes (Tests)</li>
+</ul>
+
+<figure>
+    <img src="img/Etiquetas.jpeg">
+    <figcaption> Figura 2 - Tela do esquema de categorias e cores<figcaption>
+</figure>
+
 ### Ferramentas
 
 As ferramentas empregadas no projeto são:
