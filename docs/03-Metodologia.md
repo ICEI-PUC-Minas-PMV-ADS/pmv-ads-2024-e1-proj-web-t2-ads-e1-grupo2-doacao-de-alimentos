@@ -27,7 +27,10 @@ Para organização e distribuição das tarefas do projeto, a equipe está utili
 <li>Done: nesta lista são colocadas as tarefas finalizadas.</li>
 </ul>
 
-
+O quadro kanban do grupo no GitHub está presente no link: https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/963/views/1 e esta apresentado no estado atual da seguinte forma:
+<figure>
+    <img src="img/quadroKanban.jpeg">
+</figure>
 ### Ferramentas
 
 As ferramentas empregadas no projeto são:
