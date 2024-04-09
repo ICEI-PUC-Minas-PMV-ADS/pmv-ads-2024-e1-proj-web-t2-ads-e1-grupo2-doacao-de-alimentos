@@ -15,6 +15,7 @@ Nossa plataforma está comprometida em combater o problema da fome e o desperdí
 * Danilo Silva de Oliveira
 * Fabio Luiz Moreira Costa
 * Laise Farias France
+* Italo de Souza Pereira
 * Rodrigo Abreu Amorim
 
 ## Orientador
