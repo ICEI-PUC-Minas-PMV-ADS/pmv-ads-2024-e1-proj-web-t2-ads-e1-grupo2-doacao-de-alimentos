@@ -5,7 +5,7 @@
 <table>
 <tbody>
 <tr>
-<th colspan="2">Perfil 1: Doadores de Alimentos </th>
+<th colspan="2">Perfil 1: Doadores de Alimentos Jurídico </th>
 </tr>
 <tr>
 <td width="150px"><b>Descrição</b></td>
@@ -54,7 +54,7 @@ Ongs e Projetos Sociais com o intuito de ajudar a diminuir o desperdício de ali
 <table>
 <tbody>
 <tr>
-<th colspan="2">Perfil 3: Pessoas Físicas </th>
+<th colspan="2">Perfil 3: Doadores de Alimentos Físicos </th>
 </tr>
 <tr>
 <td width="150px"><b>Descrição</b></td>
@@ -106,7 +106,7 @@ Com base na análise das personas foram identificadas as seguintes histórias de
 |RF-07| A aplicação deve permitir criar campanhas sazonais de doação de alimentos.    | ALTA |
 |RF-08| A aplicação deve permitir e facilitar o contato entre o doador e o receptor do alimento.   | MÉDIA |
 |RF-09| A aplicação deve permitir que o administrador atualize e exclua doadores, ONGs e pontos de doação ou coleta que nao são mais relevantes ou ativos.  | ALTO |
-|RF-10| A aplicação deve permitir que pessoas físicas encontrem pontos de coleta de alimentos.  | ALTA |
+|RF-10| A aplicação deve permitir que doadores físicos encontrem pontos de coleta de alimentos.  | ALTA |
 |RF-11| A aplicação deve permitir ao usuário verificar as informações registradas no cadastro na página Perfil, após fazer seu login.  | MÉDIA |
 |RF-12| A aplicação deve permitir o doador ver informações do receptor do alimento.  | ALTA |
 |RF-13| A aplicação deve permitir o receptor ver informações do doador do alimento.  | ALTA |
@@ -119,8 +119,9 @@ Com base na análise das personas foram identificadas as seguintes histórias de
 |-------|-------------------------|----|
 |RNF-01| A aplicação deve ser publicada em um ambiente acessível público na Internet.  | ALTA | 
 |RNF-02| A aplicação deve ser responsiva, tendo boas exibições em diversos tamanhos de tela. Como em tablets, celulares e computadores.  | ALTA | 
-|RNF-03| A aplicação deve ter bom nível de contraste entre os elementos da tela.  | MÉDIA | 
+|RNF-03| O código-fonte deve ser de fácil compreensão e seguir as convenções de codificação estabelecidas pela equipe de desenvolvimento.  | ALTA | 
 |RNF-04| A aplicação deve ser compatível com os navegadores O site deve ser compatível com os principais navegadores do mercado: Google Chrome, Opera e Microsoft Edge.  | ALTA | 
-
+|RNF-05| O sistema deve fornecer feedback claro para ações do usuário, como confirmações de formulários e mensagens de erro.  | ALTA | 
+|RNF-06| O sistema deve implementar políticas de senha robustas, incluindo requisitos de complexidade.  | ALTA | 
 
 **Prioridade: Alta / Média / Baixa.

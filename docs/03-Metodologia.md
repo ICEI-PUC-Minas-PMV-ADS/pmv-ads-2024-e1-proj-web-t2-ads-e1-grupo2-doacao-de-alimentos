@@ -68,11 +68,3 @@ Os artefatos do projeto são desenvolvidos a partir das plataformas GitHub apres
 |Repositório de código fonte | GitHub | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t2-ads-e1-grupo2-doacao-de-alimentos/blob/main/README.md  |
 |Documentos do projeto  | GitHub | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t2-ads-e1-grupo2-doacao-de-alimentos/blob/main/ |
 |Gerenciamento do projeto  | GitHub | [https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/963/views/1](https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/963) |
-
-
-
-Liste quais ferramentas foram empregadas no desenvolvimento do projeto, justificando a escolha delas, sempre que possível.
- 
-> **Possíveis Ferramentas que auxiliarão no gerenciamento**: 
-> - [Slack](https://slack.com/)
-> - [Github](https://github.com/)
