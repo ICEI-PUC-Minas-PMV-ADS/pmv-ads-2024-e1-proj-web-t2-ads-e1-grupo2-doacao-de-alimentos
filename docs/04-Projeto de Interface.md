@@ -1,4 +1,68 @@
+# Projeto de Interface
 
+
+## User Flow
+A Figura 1 ilustra o caminho que o usuário percorre ao interagir com as diversas telas do sistema. Cada tela é detalhada na seção subsequente, intitulada Protótipo de Baixa Fidelidade.
+
+Para uma experiência interativa com o protótipo, visite o projeto .
+
+(ADICIONAR AQUI A TELA Fluxo de telas do usuário)
+
+Figura 1 - Trajetória das telas do usuário
+
+## Protótipo de Baixa Fidelidade
+
+As telas do sistema seguem uma estrutura comum, ilustrada na Figura 2. Esta estrutura é composta por três principais blocos:
+
+- Cabeçalho: aqui se encontram o nome da aplicação web e a navegação principal do site (menu da aplicação);
+- Conteúdo: exibe o conteúdo específico de cada tela;
+- Rodapé: contém informações sobre os direitos autorais.
+![164074128-7b006e50-8621-4964-b0fd-07a90e626673](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t2-ads-e1-grupo2-doacao-de-alimentos/assets/91226847/a24fcc9b-651e-4d07-9d92-51c331379122)
+
+Figura 2 - Estrutura padrão do site
+
+---
+
+### Tela - Página Principal
+
+A página principal exibe banners que direcionam para as páginas de Doação, Como Doar e Cadastro. Além disso, apresenta depoimentos de doadores e uma descrição sucinta sobre o projeto.
+
+ADICIONAR AQUI Página Principal
+
+Figura 3 - Tela da Página Principal
+
+---
+
+### Tela - Doações
+
+A tela de Doações exibe os alimentos disponíveis para doação, informações detalhadas sobre os alimentos, pontos de retirada e informações de contato.
+
+ADICIONAR AQUI A TELA DE Doações
+
+
+---
+
+### Tela - Login
+
+A tela de Login solicita que o usuário insira suas credenciais, que são o nome de usuário e a senha. Se o usuário ainda não tiver uma conta, ele pode ser redirecionado para a tela de Cadastro através de um link na tela de Login.
+
+!Login
+
+Figura 4 - Tela de Login
+
+---
+
+### Tela - Cadastro
+
+A tela de Cadastro solicita que o usuário forneça informações como nome, endereço de e-mail, senha e confirmação de senha para criar uma nova conta. Após o preenchimento dos detalhes, o usuário pode clicar no botão 'Cadastrar' para criar sua conta.
+
+!Cadastro
+
+Figura 5 - Tela de Cadastro
+
+
+---
+---
 # Projeto de Interface
 
 <span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
