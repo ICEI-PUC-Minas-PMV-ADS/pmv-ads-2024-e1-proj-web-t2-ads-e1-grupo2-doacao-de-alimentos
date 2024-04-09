@@ -62,6 +62,15 @@ As ferramentas empregadas no projeto são:
 
 O editor de código foi escolhido porque ele possui uma integração com o sistema de versão. As ferramentas de comunicação utilizadas possuem integração semelhante e por isso foram selecionadas. Por fim, para criar diagramas utilizamos essa ferramenta por melhor captar as necessidades da nossa solução.
 
+Os artefatos do projeto são desenvolvidos a partir das plataformas GitHub apresentadas com seu propósito na tabela que se segue.
+| AMBIENTE | PLATAFORMA |LINK DE ACESSO                 |
+|--------------------|--------------------------------------------------------------------------------|----------------------------------------|
+|Repositório de código fonte | GitHub | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t2-ads-e1-grupo2-doacao-de-alimentos/blob/main/README.md  |
+|Documentos do projeto  | GitHub | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t2-ads-e1-grupo2-doacao-de-alimentos/blob/main/ |
+|Gerenciamento do projeto  | GitHub | [https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/963/views/1](https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/963) |
+
+
+
 Liste quais ferramentas foram empregadas no desenvolvimento do projeto, justificando a escolha delas, sempre que possível.
  
 > **Possíveis Ferramentas que auxiliarão no gerenciamento**: 
