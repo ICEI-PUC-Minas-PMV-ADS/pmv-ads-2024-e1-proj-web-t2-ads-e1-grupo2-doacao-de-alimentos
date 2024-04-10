@@ -14,39 +14,35 @@
 
 ## Objetivos
 
-Nossa plataforma está comprometida em combater esse problema, conectando doadores de alimentos a organizações de caridade e comunidades carentes. Juntos, podemos reduzir o desperdício e garantir que ninguém passe fome. A nossa plataforma irá operar de forma colaborativa e eficiente para combater o desperdício de alimentos e garantir que ninguém passe fome. Aqui está como funciona:
-### Cadastros de Doadores e Parceiros
+### Objetivo Geral
+
+Nosso objetivo é reduzir o desperdício de alimentos e mitigar a fome, conectando doadores a organizações de caridade e comunidades carentes por meio de uma plataforma colaborativa e eficiente.
+
+### Objetivos Específicos
+
+#### Facilitar a Doação de Alimentos
 <ul>
-<li>Doadores de Alimentos: Restaurantes, supermercados e outros estabelecimentos cadastram-se na plataforma como doadores. Eles informam os tipos de alimentos disponíveis para doação.</li>
-<li>Organizações de Caridade e Comunidades Carentes: Essas organizações também se registram na plataforma. Elas indicam suas necessidades e locais de atuação.</li>
+<li>Permitir que restaurantes, supermercados e outros estabelecimentos cadastrem-se na plataforma como doadores, especificando os tipos de alimentos disponíveis para doação.
+<li>Simplificar o processo de registro para organizações de caridade e comunidades carentes, permitindo que indiquem suas necessidades e locais de atuação.</li>
 </ul>
 
-### Conexão e Logística
+#### Promover a Redução de Desperdício
 <ul>
-<li>A plataforma cruza as informações dos doadores com as necessidades das organizações de caridade.</li>
-<li>Quando um doador tem alimentos excedentes, a plataforma notifica as organizações próximas.</li>
-<li>A logística de coleta e distribuição é coordenada para garantir que os alimentos cheguem onde são mais necessários.</li>
+<li>Incentivar os doadores a evitar o desperdício, direcionando os alimentos excedentes para as organizações cadastradas na plataforma.</li>
+<li>Auxiliar as organizações de caridade na recepção e distribuição dos alimentos para pessoas em situação de vulnerabilidade.</li>
 </ul>
 
-### Redução de Desperdício
+#### Realizar Monitoramento e Avaliação de Impacto
 <ul>
-<li>Os doadores evitam o desperdício, direcionando os alimentos excedentes para as organizações.</li>
-<li>As organizações de caridade recebem os alimentos e os distribuem para pessoas em situação de vulnerabilidade.</li>
+<li>Rastrear as doações, coletas e distribuições realizadas por meio da plataforma.</li>
+<li>Gerar relatórios periódicos para demonstrar o impacto positivo na redução do desperdício de alimentos e no combate à fome.</li>
 </ul>
 
-### Monitoramento e Impacto
+#### Fomentar o Engajamento da Comunidade
 <ul>
-<li>A plataforma rastreia as doações, coletas e distribuições.</li>
-<li>Relatórios são gerados para mostrar o impacto positivo na redução do desperdício e no combate à fome.</li>
+<li>Incentivar a participação da comunidade por meio de campanhas, eventos e ações de sensibilização.</li>
+<li>Envolver todos os interessados, sejam eles doadores, voluntários ou apoiadores, para contribuir para a causa de combate ao desperdício e à fome.</li>
 </ul>
-
-### Engajamento da Comunidade
-<ul>
-<li>A plataforma incentiva a participação da comunidade por meio de campanhas, eventos e sensibilização.</li>
-<li>Todos podem contribuir para a causa, seja como doadores, voluntários ou apoiadores.</li>
-</ul>
-
-Juntos, podemos fazer a diferença e criar um mundo mais justo e sustentável.
 
 ## Justificativa
 
