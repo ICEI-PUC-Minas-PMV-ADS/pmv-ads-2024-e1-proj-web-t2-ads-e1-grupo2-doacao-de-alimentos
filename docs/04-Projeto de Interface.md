@@ -42,13 +42,37 @@ ADICIONAR AQUI A TELA DE Doações
 
 ---
 
+### Página de Doações
+Esta página permitirá que os usuários façam doações para as campanhas disponíveis.
+
+---
+### Pontos de Doações
+Esta página mostrará os diferentes pontos onde as doações podem ser feitas.
+
+---
+
+### Contato
+Esta página terá informações de contato para a empresa, incluindo endereço de e-mail e número de telefone.
+
+---
+
+### Criação de Campanhas
+Esta página permitirá que os usuários criem suas próprias campanhas de doação.
+
+---
+
+### Sobre a Empresa
+Esta página fornecerá informações sobre a empresa, incluindo sua missão, visão e história.
+
+---
+
 ### Tela - Login
 
 A tela de Login solicita que o usuário insira suas credenciais, que são o nome de usuário e a senha. Se o usuário ainda não tiver uma conta, ele pode ser redirecionado para a tela de Cadastro através de um link na tela de Login.
 
 !Login
 
-Figura 4 - Tela de Login
+Figura  - Tela de Login
 
 ---
 
@@ -58,8 +82,7 @@ A tela de Cadastro solicita que o usuário forneça informações como nome, end
 
 !Cadastro
 
-Figura 5 - Tela de Cadastro
-
+Figura  - Tela de Cadastro
 
 ---
 ---
