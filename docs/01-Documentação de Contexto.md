@@ -50,17 +50,7 @@ Juntos, podemos fazer a diferença e criar um mundo mais justo e sustentável.
 
 ## Justificativa
 
-A importância de trabalhar com o problema do desperdício excessivo de alimentos é multifacetada e impacta tanto a sociedade quanto o meio ambiente. Aqui estão algumas razões cruciais para abordar esse desafio:
-
-### 1. Combate à Fome e Insegurança Alimentar:
-<ul>
-<li>Milhões de pessoas em todo o mundo sofrem de fome e desnutrição. Reduzir o desperdício de alimentos significa que mais comida estará disponível para aqueles que precisam. Ao conectar doadores a organizações de caridade, podemos garantir que os alimentos excedentes sejam direcionados para as pessoas certas.</li>
-</ul>
-
-### 2. Sustentabilidade Ambiental:
-<ul>
-<li>O desperdício de alimentos tem um impacto significativo no meio ambiente. A produção, transporte e descarte de alimentos consomem recursos naturais, água e energia. Quando os alimentos são jogados fora, também contribuem para as emissões de gases de efeito estufa.</li>
-</ul>
+A importância de trabalhar com o problema do desperdício excessivo de alimentos é multifacetada e impacta tanto a sociedade quanto o meio ambiente. Uma das razões cruciais para abordar esse desafio é o combate à fome e insegurança alimentar. Milhões de pessoas em todo o mundo sofrem de fome e desnutrição. Reduzir o desperdício de alimentos significa que mais comida estará disponível para aqueles que precisam. Ao conectar doadores a organizações de caridade, podemos garantir que os alimentos excedentes sejam direcionados para as pessoas certas. Outra razão é a sustentabilidade ambiental, tendo em vista que o desperdício de alimentos tem um impacto significativo no meio ambiente. A produção, transporte e descarte de alimentos consomem recursos naturais, água e energia. Quando os alimentos são jogados fora, também contribuem para as emissões de gases de efeito estufa.
 
 ### 3. Ecônomia e Eficência:
 <ul>
