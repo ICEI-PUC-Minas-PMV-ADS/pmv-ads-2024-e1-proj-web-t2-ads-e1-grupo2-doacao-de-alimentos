@@ -50,22 +50,9 @@ Juntos, podemos fazer a diferença e criar um mundo mais justo e sustentável.
 
 ## Justificativa
 
-A importância de trabalhar com o problema do desperdício excessivo de alimentos é multifacetada e impacta tanto a sociedade quanto o meio ambiente. Uma das razões cruciais para abordar esse desafio é o combate à fome e insegurança alimentar. Milhões de pessoas em todo o mundo sofrem de fome e desnutrição. Reduzir o desperdício de alimentos significa que mais comida estará disponível para aqueles que precisam. Ao conectar doadores a organizações de caridade, podemos garantir que os alimentos excedentes sejam direcionados para as pessoas certas. Outra razão é a sustentabilidade ambiental, tendo em vista que o desperdício de alimentos tem um impacto significativo no meio ambiente. A produção, transporte e descarte de alimentos consomem recursos naturais, água e energia. Quando os alimentos são jogados fora, também contribuem para as emissões de gases de efeito estufa.
-
-### 3. Ecônomia e Eficência:
-<ul>
-<li>Reduzir o desperdício de alimentos economiza dinheiro para famílias, empresas e governos. Melhorar a eficiência na cadeia de suprimentos alimentar resulta em benefícios econômicos.</li>
-</ul>
-
-### 4. Conscientização e Mudança de Comportamento:
-<ul>
-<li>Trabalhar nesse problema aumenta a conscientização sobre a importância de valorizar os alimentos. Pode inspirar mudanças de comportamento em indivíduos, empresas e instituições.</li>
-</ul>
-
-### 4. Responsabilidade Coletiva:
-<ul>
-<li>Todos nós compartilhamos a responsabilidade de cuidar do nosso planeta e de nossos semelhantes. Abordar o desperdício de alimentos é uma maneira tangível de fazer a diferença. Em resumo, trabalhar para reduzir o desperdício de alimentos é uma ação concreta que beneficia a todos: desde os mais vulneráveis até o nosso ecossistema global. </li>
-</ul>
+  A importância de trabalhar com o problema do desperdício excessivo de alimentos é multifacetada e impacta tanto a sociedade quanto o meio ambiente. Uma das razões cruciais para abordar esse desafio é o combate à fome e insegurança alimentar. Milhões de pessoas em todo o mundo sofrem de fome e desnutrição. Reduzir o desperdício de alimentos significa que mais comida estará disponível para aqueles que precisam. Ao conectar doadores a organizações de caridade, podemos garantir que os alimentos excedentes sejam direcionados para as pessoas certas.
+  Outra razão é a sustentabilidade ambiental, tendo em vista que o desperdício de alimentos tem um impacto significativo no meio ambiente. A produção, transporte e descarte de alimentos consomem recursos naturais, água e energia. Quando os alimentos são jogados fora, também contribuem para as emissões de gases de efeito estufa. É importante também se atentar à economia e eficência, pois reduzir o desperdício de alimentos economiza dinheiro para famílias, empresas e governos. Melhorar a eficiência na cadeia de suprimentos alimentar resulta em benefícios econômicos.
+  Trabalhar nesse problema aumenta a conscientização sobre a importância de valorizar os alimentos. Pode inspirar mudanças de comportamento em indivíduos, empresas e instituições. Todos nós compartilhamos a responsabilidade de cuidar do nosso planeta e de nossos semelhantes. Abordar o desperdício de alimentos é uma maneira tangível de fazer a diferença. Em resumo, trabalhar para reduzir o desperdício de alimentos é uma ação concreta que beneficia a todos: desde os mais vulneráveis até o nosso ecossistema global.
 
 ## Público-Alvo
 
