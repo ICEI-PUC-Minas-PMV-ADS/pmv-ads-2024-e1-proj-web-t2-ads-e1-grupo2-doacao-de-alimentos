@@ -17,17 +17,42 @@ As telas do sistema seguem uma estrutura comum, ilustrada na Figura 2. Esta estr
 - Cabeçalho: aqui se encontram o nome da aplicação web e a navegação principal do site (menu da aplicação);
 - Conteúdo: exibe o conteúdo específico de cada tela;
 - Rodapé: contém informações sobre os direitos autorais.
-![164074128-7b006e50-8621-4964-b0fd-07a90e626673](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t2-ads-e1-grupo2-doacao-de-alimentos/assets/91226847/a24fcc9b-651e-4d07-9d92-51c331379122)
+
 
 Figura 2 - Estrutura padrão do site
 
 ---
 
-### Tela - Página Principal
+## Tela - Home Page
 
-A página principal exibe banners que direcionam para as páginas de Doação, Como Doar e Cadastro. Além disso, apresenta depoimentos de doadores e uma descrição sucinta sobre o projeto.
+A página principal do nosso site de doação de alimentos exibe banners que direcionam os usuários para as páginas de **Home**, **Sobre**,**Cadastro**, **Pontos**. Além disso, apresenta uma descrição sucinta sobre o projeto.
 
-ADICIONAR AQUI Página Principal
+### Cabeçalho com Menu de Navegação
+
+No topo da página, há um menu de navegação com várias opções, incluindo "Home", "Sobre" e outras opções. O logotipo da organização está posicionado no canto superior esquerdo.
+
+### Seção Principal
+
+Esta seção contém uma frase inspiradora - "Um grão de generosidade pode alimentar o mundo", juntamente com um botão chamado “Doar agora”.
+
+### Seção de Conteúdo com Três Blocos
+
+Esta seção é dividida em três blocos, cada um com um título e espaço para texto ou imagem. Os títulos dos blocos são “Ongs e Parceiros”, “Seja um Doador” e “Campanhas de Doações”.
+
+### Mapa Interativo
+
+Abaixo dos blocos de conteúdo, há um mapa interativo que mostra locais marcados, representando pontos de doação.
+
+### Formulário de Consulta
+
+Há uma seção onde os usuários podem consultar pontos de doações. Esta seção inclui um campo para inserir informações e um botão para enviar a consulta.
+
+### Rodapé
+
+Na parte inferior da página, há um rodapé que contém links úteis, informações adicionais e ícones das redes sociais para conectar-se à organização.
+
+
+<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t2-ads-e1-grupo2-doacao-de-alimentos/assets/91226847/8742e50d-ec75-4cdc-8730-21bf4f4a4b79" width="200">
 
 Figura 3 - Tela da Página Principal
 
