@@ -19,7 +19,7 @@
 
 ### Objetivo Geral
 
-Nosso objetivo é reduzir o desperdício de alimentos e mitigar a fome, conectando doadores a organizações de caridade e comunidades carentes por meio de uma plataforma colaborativa e eficiente. 
+Nosso objetivo é reduzir o desperdício de alimentos e mitigar a fome, conectando doadores a organizações de caridade e comunidades carentes por meio de uma plataforma colaborativa, eficiente e que divulga campanhas visando a conscientização acerca do assunto. 
 
 ### Objetivos Específicos
 
