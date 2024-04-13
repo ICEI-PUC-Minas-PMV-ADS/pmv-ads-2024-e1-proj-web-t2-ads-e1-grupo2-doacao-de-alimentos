@@ -12,13 +12,15 @@
 
   Além dos desafios apresentados pela cadeia de abastecimento alimentar e pelo desperdício já mencionados, existem também outros fatores que contribuem para a dificuldade em garantir que todos tenham acesso a uma alimentação adequada no Brasil. Um dos principais desafios é a falta de conscientização e educação a respeito dessa questão. Muitas pessoas no Brasil não estão cientes do impacto do desperdício de alimentos na segurança alimentar e na crise climática. A falta de educação sobre práticas de consumo consciente e sobre como minimizar o desperdício contribui para perpetuar o problema. Também é válido apontar que mesmo que haja vontade de doar alimentos, algumas pessoas podem enfrentar dificuldades logísticas para fazer isso. Isso inclui questões como falta de tempo para identificar organizações que recebem doações ou até mesmo falta de conhecimento sobre como realizar esse processo de doação de alimentos de forma segura. Algumas pessoas podem estar dispostas a doar alimentos, mas têm desconfiança em relação às instituições que recebem essas doações. Isso pode ser devido a preocupações sobre a eficácia da distribuição dos alimentos ou sobre a possibilidade de corrupção.
 
-  Os dados revelam a urgência de encontrar soluções eficazes para reduzir o desperdício de alimentos e, ao mesmo tempo, garantir que todos tenham acesso a uma alimentação adequada.
+  Os dados revelam a urgência de encontrar soluções eficazes para reduzir o desperdício de alimentos e, ao mesmo tempo, garantir que todos tenham acesso a uma alimentação adequada. Esses fatores adicionais destacam a complexidade do problema do desperdício de alimentos e da segurança alimentar no Brasil, mostrando que além das questões estruturais da cadeia de abastecimento, também existem desafios relacionados à conscientização, acesso e confiança que precisam ser abordados para promover mudanças significativas.
+  
 
 ## Objetivos
 
 ### Objetivo Geral
 
-Nosso objetivo é reduzir o desperdício de alimentos e mitigar a fome, conectando doadores a organizações de caridade e comunidades carentes por meio de uma plataforma colaborativa e eficiente.
+Nosso objetivo é reduzir o desperdício de alimentos e mitigar a fome, conectando doadores a organizações de caridade e comunidades carentes por meio de uma plataforma colaborativa e eficiente. 
+
 ### Objetivos Específicos
 
 #### Facilitar a Doação de Alimentos
