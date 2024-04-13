@@ -9,7 +9,9 @@
   Essa realidade é especialmente crítica quando observamos o contexto global, no qual a FAO (Organização das Nações Unidas para a Alimentação e Agricultura) estima que anualmente, aproximadamente 14% dos alimentos que produzimos são perdidos durante o trajeto desde a colheita até chegarem às prateleiras das lojas. Adicionalmente, varejistas e consumidores acabam desperdiçando mais 17% dessa produção. Essa perda e desperdício de alimentos não apenas têm impacto direto na disponibilidade de comida, mas também contribuem significativamente para a crise climática, representando até 10% das emissões globais de gases de efeito estufa.
   
   Em alguns países, a cadeia de abastecimento alimentar está se tornando uma fonte ainda maior de emissões do que a agricultura e o uso da terra, intensificando a instabilidade climática e eventos extremos como secas e tempestades. Isso, por sua vez, compromete a produção e a qualidade das colheitas, ampliando o desperdício de alimentos e aumentando ainda mais os desafios relacionados à segurança alimentar e à nutrição. No Brasil, isso se traduz em um enorme impacto socioeconômico e ambiental, considerando que o país é um dos maiores produtores agrícolas do mundo.
-  
+
+  Além dos desafios apresentados pela cadeia de abastecimento alimentar e pelo desperdício já mencionados, existem também outros fatores que contribuem para a dificuldade em garantir que todos tenham acesso a uma alimentação adequada no Brasil. Um dos principais desafios é a falta de conscientização e educação a respeito dessa questão. Muitas pessoas no Brasil não estão cientes do impacto do desperdício de alimentos na segurança alimentar e na crise climática. A falta de educação sobre práticas de consumo consciente e sobre como minimizar o desperdício contribui para perpetuar o problema. Também é válido apontar que mesmo que haja vontade de doar alimentos, algumas pessoas podem enfrentar dificuldades logísticas para fazer isso. Isso inclui questões como falta de tempo para identificar organizações que recebem doações ou até mesmo falta de conhecimento sobre como realizar esse processo de doação de alimentos de forma segura. Algumas pessoas podem estar dispostas a doar alimentos, mas têm desconfiança em relação às instituições que recebem essas doações. Isso pode ser devido a preocupações sobre a eficácia da distribuição dos alimentos ou sobre a possibilidade de corrupção.
+
   Os dados revelam a urgência de encontrar soluções eficazes para reduzir o desperdício de alimentos e, ao mesmo tempo, garantir que todos tenham acesso a uma alimentação adequada.
 
 ## Objetivos
@@ -17,7 +19,6 @@
 ### Objetivo Geral
 
 Nosso objetivo é reduzir o desperdício de alimentos e mitigar a fome, conectando doadores a organizações de caridade e comunidades carentes por meio de uma plataforma colaborativa e eficiente.
-
 ### Objetivos Específicos
 
 #### Facilitar a Doação de Alimentos
