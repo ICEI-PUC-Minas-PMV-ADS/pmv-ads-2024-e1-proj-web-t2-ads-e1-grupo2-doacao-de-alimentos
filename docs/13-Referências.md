@@ -1,5 +1,14 @@
 # Referências
 
+DESPERDÍCIO de alimentos: entenda suas consequências. Oxfam Brasil, 20 abr. 2023. Disponível em: <https://www.oxfam.org.br/blog/desperdicio-de-alimentos-entenda-suas-consequencias/>. Acesso em: 09 mar. 2024. 
+PAÚL, Fernanda. Os efeitos do desperdício chocante de alimentos no mundo. BBC News Brasil, 20 mar. 2021. Disponível em: <https://www.bbc.com/portuguese/internacional-56377418>. Acesso em: 09 mar. 2024. 
+
+DESPERDÍCIO de Alimentos: saiba como evitar essa prática. Exame., 23 nov. 2023. Disponível em: <https://exame.com/esg/desperdicio-de-alimentos-saiba-como-evitar-essa-pratica/>. Acesso em: 09 mar. 2024
+
+GANDRA, Alana. Pesquisa revela que 19 milhões passaram fome no Brasil no fim de 2020. Agência Brasil, 06 abr. 2021. Disponível em: <https://agenciabrasil.ebc.com.br/geral/noticia/2021-04/pesquisa-revela-que-19-milhoes-passaram-fome-no-brasil-no-fim-de-2020>. Acesso em: 11 mar. 2024.
+
+FAO combate desperdício de frutas e hortaliças. Nações Unidas Brasil, 30 set. 2022. Disponível em: <https://brasil.un.org/pt-br/201527-fao-combate-desperd%C3%ADcio-de-frutas-e-hortali%C3%A7as>. Acesso em: 11 mar. 2024. 
+
 https://www.coopersystem.com.br/requisitos-funcionais-e-nao-funcionais-o-que-sao-e-qual-e-a-diferenca/ <br>
 https://aws.amazon.com/pt/what-is/scrum/#:~:text=O%20Scrum%20é%20um%20framework,uma%20entrega%20eficiente%20de%20projetos. <br>
 https://www.gov.br/mds/pt-br/noticias-e-conteudos/desenvolvimento-social/noticias-desenvolvimento-social/fome-no-brasil-piorou-nos-ultimos-tres-anos-mostra-relatorio-da-fao <br>
