@@ -25,7 +25,7 @@ Figura 2 - Estrutura padrão do site
 
 ## Tela - Home Page
 
-A página principal do nosso site de doação de alimentos exibe banners que direcionam os usuários para as páginas de **Home**, **Sobre**,**Cadastro**, **Pontos**. Além disso, apresenta uma descrição sucinta sobre o projeto.
+A página principal do nosso site de doação de alimentos exibe banners que direcionam os usuários para as páginas de **Home**, **Sobre**, **Cadastro**, **Pontos**. Além disso, apresenta uma descrição sucinta sobre o projeto.
 
 ### Cabeçalho com Menu de Navegação
 
