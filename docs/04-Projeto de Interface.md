@@ -64,15 +64,21 @@ A tela de Doações exibe os alimentos disponíveis para doação, informações
 
 ADICIONAR AQUI A TELA DE Doações
 
+Figura 4 - Tela de Alimentos para Doações
+
 ---
 
 ### Página de Doações
 Esta página permitirá que os usuários façam doações para as campanhas disponíveis.
 
+Figura 5 - Tela da Página de Doações
+
 ---
 ### Pontos de Doações
 A página mostra locais de doação de alimentos por localização e horários. 
 Os detalhes incluem endereço e instruções.
+
+Figura 6 - Tela da Página de Pontos de Doações
 
 ---
 
@@ -88,6 +94,8 @@ Nesta seção de contatos, terá um formulário aonde as pessoas conseguirão re
 No rodapé desta página terão os e-mails dos departamentos responsáveis pela instituição, como por exemplo: Administrativo, Financeiro, Comercial e Operacional. Juntamente, terão os botões das redes sociais que a instituição tem páginas, como por exemplo: Facebook, Instagram e X (Twitter), e logo após terá uma opção de "Ajuda", que servirá para ajudar as pessoas a realizarem o envio para contato.
 
 ![u5qgCrG (1)_Easy-Resize com](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t2-ads-e1-grupo2-doacao-de-alimentos/assets/106082129/42ee655e-ed99-4640-8b43-6e242294b1b2)
+
+Figura 6 - Tela da Página para Contato
 
 ---
 
