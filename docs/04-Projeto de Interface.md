@@ -72,7 +72,8 @@ Esta página permitirá que os usuários façam doações para as campanhas disp
 
 ---
 ### Pontos de Doações
-A página mostra locais de doação de alimentos por localização e horário. Os detalhes incluem endereço e instruções.
+A página mostra locais de doação de alimentos por localização e horários. 
+Os detalhes incluem endereço e instruções.
 
 ---
 
