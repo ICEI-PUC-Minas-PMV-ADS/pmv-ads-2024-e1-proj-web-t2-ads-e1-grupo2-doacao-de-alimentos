@@ -9,7 +9,7 @@ Além de solucionar problemas complexos de maneira econômica e sustentavel.
 
 ### Divisão de Papéis
 
-A divisão de papéis do grupo baseada na divisão do SCRUM(Scrum Master, Product Owner e Equipe de Desenvolvimento) ficou da seguinte forma:
+A divisão de papéis do grupo baseada na divisão do SCRUM (Scrum Master, Product Owner e Equipe de Desenvolvimento) ficou da seguinte forma:
 <ul>
 <li>Scrum Master: Rodrigo Amorim;</li>
 <li>Product Owner: Danilo Oliveira;</li>
