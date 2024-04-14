@@ -1,6 +1,7 @@
 # Referências
 
 DESPERDÍCIO de alimentos: entenda suas consequências. Oxfam Brasil, 20 abr. 2023. Disponível em: <https://www.oxfam.org.br/blog/desperdicio-de-alimentos-entenda-suas-consequencias/>. Acesso em: 09 mar. 2024. 
+
 PAÚL, Fernanda. Os efeitos do desperdício chocante de alimentos no mundo. BBC News Brasil, 20 mar. 2021. Disponível em: <https://www.bbc.com/portuguese/internacional-56377418>. Acesso em: 09 mar. 2024. 
 
 DESPERDÍCIO de Alimentos: saiba como evitar essa prática. Exame., 23 nov. 2023. Disponível em: <https://exame.com/esg/desperdicio-de-alimentos-saiba-como-evitar-essa-pratica/>. Acesso em: 09 mar. 2024
