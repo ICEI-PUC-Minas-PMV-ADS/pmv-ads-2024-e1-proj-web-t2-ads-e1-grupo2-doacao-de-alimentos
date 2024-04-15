@@ -52,7 +52,7 @@ Há uma seção onde os usuários podem consultar pontos de doações. Esta seç
 Na parte inferior da página, há um rodapé que contém links úteis, informações adicionais e ícones das redes sociais para conectar-se à organização.
 
 
-Tela da Página de Pontos de Doações
+Tela da Página do rodapé
 ![rodape](img/rodape.png)
 
 Figura 3 - Tela da Página Principal
