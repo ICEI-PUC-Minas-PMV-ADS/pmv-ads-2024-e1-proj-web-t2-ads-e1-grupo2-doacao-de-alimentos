@@ -52,7 +52,8 @@ Há uma seção onde os usuários podem consultar pontos de doações. Esta seç
 Na parte inferior da página, há um rodapé que contém links úteis, informações adicionais e ícones das redes sociais para conectar-se à organização.
 
 
-<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t2-ads-e1-grupo2-doacao-de-alimentos/assets/91226847/8742e50d-ec75-4cdc-8730-21bf4f4a4b79" width="600">
+Tela da Página de Pontos de Doações
+![rodape](img/rodape.png)
 
 Figura 3 - Tela da Página Principal
 
