@@ -13,7 +13,8 @@ Para uma experiência interativa com o protótipo, visite o projeto .
 
 | Imagem 6 | Imagem 7 | Imagem 8 | Imagem 9 | Imagem 10 |
 |:---:|:---:|:---:|:---:|:---:|
-| ![Contato](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t2-ads-e1-grupo2-doacao-de-alimentos/assets/91226847/21c2aab3-ab66-42cc-b100-42dbf343ddfd) | ![Pagina de Doações](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t2-ads-e1-grupo2-doacao-de-alimentos/assets/91226847/794ef8f5-0315-41a3-a646-5d43031849a8)| ![Sobre nós](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t2-ads-e1-grupo2-doacao-de-alimentos/assets/91226847/4bbe5d45-2546-4fcf-8a2a-ad4c0acc29ab)| ![Criar Campanhas](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t2-ads-e1-grupo2-doacao-de-alimentos/assets/91226847/2d8779c1-07cb-47b5-af68-3bd1df462512) |
+| ![Contato](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t2-ads-e1-grupo2-doacao-de-alimentos/assets/91226847/21c2aab3-ab66-42cc-b100-42dbf343ddfd) | ![Pagina de Doações](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t2-ads-e1-grupo2-doacao-de-alimentos/assets/91226847/794ef8f5-0315-41a3-a646-5d43031849a8)| ![Sobre nós](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t2-ads-e1-grupo2-doacao-de-alimentos/assets/91226847/4bbe5d45-2546-4fcf-8a2a-ad4c0acc29ab)| ![Criar Campanhas](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t2-ads-e1-grupo2-doacao-de-alimentos/assets/91226847/2d8779c1-07cb-47b5-af68-3bd1df462512) | ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t2-ads-e1-grupo2-doacao-de-alimentos/assets/91226847/466660d4-9b64-4afb-9921-7e8eeef1b7a1)
+
 
 Figura 1 - Trajetória das telas do usuário
 
