@@ -19,8 +19,6 @@ As telas do sistema seguem uma estrutura comum, ilustrada na Figura 2. Esta estr
 - Rodapé: contém informações sobre os direitos autorais.
 
 
-Figura 2 - Estrutura padrão do site
-
 ---
 
 ## Tela - Home Page
@@ -55,14 +53,14 @@ Na parte inferior da página, há um rodapé que contém links úteis, informaç
 Tela da Página do rodapé
 ![rodape](img/rodape.png)
 
-Figura 3 - Tela da Página Principal
+Figura 2 - Tela da Página Principal
 
 ---
 
 ### Página de Doações
 Esta página permitirá que os usuários façam doações para as campanhas disponíveis.
 
-Figura 5 - Tela da Página de Doações
+Figura 3 - Tela da Página de Doações
 
 ---
 ### Pontos de Doações
@@ -70,6 +68,8 @@ A página mostra locais de doações baseado na localização do usuário, assim
 
 Tela da Página de Pontos de Doações
 ![ponto-doacao](img/ponto-doacao.png)
+
+Figura 4 - Tela dos Pontos de Doações
 
 ---
 
@@ -87,7 +87,7 @@ No rodapé desta página terão os e-mails dos departamentos responsáveis pela 
 ![imagem_2024-04-14_204016403_Easy-Resize com](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t2-ads-e1-grupo2-doacao-de-alimentos/assets/106082129/c988990f-2363-4338-a16b-cd134137886d)
 
 
-Figura 6 - Tela da Página para Contato
+Figura 5 - Tela da Página para Contato
 
 ---
 
@@ -96,12 +96,18 @@ Esta página permitirá que os usuários criem suas próprias campanhas de doaç
 
 ![campanha](img/campanha.png)
 
+Figura 6 - Tela da Página de Campanhas
+
 ---
 
 ### Sobre a Empresa
 Esta página fornecerá informações sobre a empresa, incluindo sua missão, visão e história.
 
 ![Tela_sobrenos](img/Sobre_Nos.png)
+
+Figura 6 - Tela da Página sobre a empresa
+
+---
 
 ### Tela - Login
 
