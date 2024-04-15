@@ -6,13 +6,14 @@ A Figura 1 ilustra o caminho que o usuário percorre ao interagir com as diversa
 
 Para uma experiência interativa com o protótipo, visite o projeto .
 
+
 | Imagem 1 | Imagem 2 | Imagem 3 | Imagem 4 | Imagem 5 |
 |:---:|:---:|:---:|:---:|:---:|
-| ![Login](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t2-ads-e1-grupo2-doacao-de-alimentos/assets/91226847/510511a0-b586-4bca-bf08-f9008f475fe7) | ![Cadastro instituição](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t2-ads-e1-grupo2-doacao-de-alimentos/assets/91226847/e05edd5a-0c09-4de9-b11a-94a2611289a3) | ![Cadastro PF](https://www.bing.com/images/blob?bcid=TkRIPYaHxOgGCj8Q-aRAvTRYVrbI.....1A) | ![Home](https://www.bing.com/images/blob?bcid=TkRIPYaHxOgGCj8Q-aRAvTRYVrbI.....1A) | ![Pontos de doação](httPps://www.bing.com/images/blob?bcid=TkRIPYaHxOgGCj8Q-aRAvTRYVrbI.....1A) |
+| ![Home](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t2-ads-e1-grupo2-doacao-de-alimentos/assets/91226847/510511a0-b586-4bca-bf08-f9008f475fe7) | ![Cadastro instituição](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t2-ads-e1-grupo2-doacao-de-alimentos/assets/91226847/e05edd5a-0c09-4de9-b11a-94a2611289a3) | ![Cadastro PF](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t2-ads-e1-grupo2-doacao-de-alimentos/assets/91226847/85cccf7d-4284-49b8-a2e1-1006591c3a0e)| ![Login](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t2-ads-e1-grupo2-doacao-de-alimentos/assets/91226847/f2771ed4-f980-4aee-871e-a98a23a3e22b)| ![Pontos de doação](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t2-ads-e1-grupo2-doacao-de-alimentos/assets/91226847/8a0b3c08-a52a-4db1-a58a-55fa36cdf156)
 
 | Imagem 6 | Imagem 7 | Imagem 8 | Imagem 9 | Imagem 10 |
 |:---:|:---:|:---:|:---:|:---:|
-| ![Contato](https://www.bing.com/images/blob?bcid=TkRIPYaHxOgGCj8Q-aRAvTRYVrbI.....1A) | ![Pagina de Doações](https://www.bing.com/images/blob?bcid=TkRIPYaHxOgGCj8Q-aRAvTRYVrbI.....1A) | ![Sobre nós](https://www.bing.com/images/blob?bcid=TkRIPYaHxOgGCj8Q-aRAvTRYVrbI.....1A) | ![Campanhas](https://www.bing.com/images/blob?bcid=TkRIPYaHxOgGCj8Q-aRAvTRYVrbI.....1A) | ![Criar Campanhas](https://www.bing.com/images/blob?bcid=TkRIPYaHxOgGCj8Q-aRAvTRYVrbI.....1A) |
+| ![Contato](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t2-ads-e1-grupo2-doacao-de-alimentos/assets/91226847/21c2aab3-ab66-42cc-b100-42dbf343ddfd) | ![Pagina de Doações](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t2-ads-e1-grupo2-doacao-de-alimentos/assets/91226847/794ef8f5-0315-41a3-a646-5d43031849a8)| ![Sobre nós](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t2-ads-e1-grupo2-doacao-de-alimentos/assets/91226847/4bbe5d45-2546-4fcf-8a2a-ad4c0acc29ab)| ![Criar Campanhas](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t2-ads-e1-grupo2-doacao-de-alimentos/assets/91226847/2d8779c1-07cb-47b5-af68-3bd1df462512) |
 
 Figura 1 - Trajetória das telas do usuário
 
