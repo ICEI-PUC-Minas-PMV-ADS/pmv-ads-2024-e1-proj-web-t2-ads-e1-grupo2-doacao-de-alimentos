@@ -83,7 +83,6 @@ Com base na análise das personas foram identificadas as seguintes histórias de
 |Doador de Alimento | cadastrar-me no site de doação de alimentos | receber doações e distribuílas de forma eficiente para as pessoas necessitadas. |
 |ONG | usar o site de doação de alimentos para solicitar doações  | oferecer refeições e suprimentos essenciais aos necessitados.  |
 |Projeto Social | usar o site de doação de alimentos para solicitar doações  | oferecer refeições e suprimentos essenciais aos necessitados.  |
-|Doador de Alimento | cadastrar alimentos  | poder disponibilizar o alimento para doação.  |
 |Pessoa Física | encontrar os pontos de coleta de alimentos   | contribuir com doações e ajudar quem mais precisa. |
 |ONGs e Projetos Sociais | criar campanhas sazonais de doação, como "Natal Solidário" ou "Páscoa Generosa" | envolver toda a comunidade local na causa de doação de alimentos. |
 |Doadores de Alimento | conseguir manter contato diretamente com os receptores dos alimentos para doação | ter um melhor controle e noção de quem está recebendo os alimentos. |
@@ -100,16 +99,14 @@ Com base na análise das personas foram identificadas as seguintes histórias de
 |RF-01| A aplicação deve permitir ao usuário cadastrar uma conta.   | ALTA | 
 |RF-02| A aplicação deve permitir ao usuário fazer o login da sua conta cadastrada.   | ALTA | 
 |RF-03| A aplicação deve oferecer uma funcionalidade de filtro de busca para permitir ao usuário procurar alimentos, doadores, ONGs ou projetos sociais.    | ALTA |
-|RF-04| A aplicação deve permitir ao usuário cadastrar alimentos para doação.   | ALTA |
-|RF-05| A aplicação deve fornecer os pontos de coleta de alimentos.  | ALTA |
-|RF-06| A aplicação deve permitir solicitar doações específicas.   | ALTA |
-|RF-07| A aplicação deve permitir criar campanhas sazonais de doação de alimentos.    | ALTA |
-|RF-08| A aplicação deve permitir e facilitar o contato entre o doador e o receptor do alimento.   | MÉDIA |
-|RF-09| A aplicação deve permitir que o administrador atualize e exclua doadores, ONGs e pontos de doação ou coleta que nao são mais relevantes ou ativos.  | ALTO |
-|RF-10| A aplicação deve permitir que doadores físicos encontrem pontos de coleta de alimentos.  | ALTA |
-|RF-11| A aplicação deve permitir ao usuário verificar as informações registradas no cadastro na página Perfil, após fazer seu login.  | MÉDIA |
-|RF-12| A aplicação deve permitir o doador ver informações do receptor do alimento.  | ALTA |
-|RF-13| A aplicação deve permitir o receptor ver informações do doador do alimento.  | ALTA |
+|RF-04| A aplicação deve fornecer os pontos de coleta de alimentos.  | ALTA |
+|RF-05| A aplicação deve permitir criar campanhas sazonais de doação de alimentos.    | ALTA |
+|RF-06| A aplicação deve permitir e facilitar o contato entre o doador e o receptor do alimento.   | MÉDIA |
+|RF-07| A aplicação deve permitir que o administrador atualize e exclua doadores, ONGs e pontos de doação ou coleta que nao são mais relevantes ou ativos.  | ALTO |
+|RF-08| A aplicação deve permitir que doadores físicos encontrem pontos de coleta de alimentos.  | ALTA |
+|RF-09| A aplicação deve permitir ao usuário verificar as informações registradas no cadastro na página Perfil, após fazer seu login.  | MÉDIA |
+|RF-10| A aplicação deve permitir o doador ver informações do receptor do alimento.  | ALTA |
+|RF-11| A aplicação deve permitir o receptor ver informações do doador do alimento.  | ALTA |
 
 **Prioridade: Alta / Média / Baixa.  
 

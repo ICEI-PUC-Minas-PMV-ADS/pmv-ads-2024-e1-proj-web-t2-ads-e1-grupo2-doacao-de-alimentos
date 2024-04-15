@@ -68,3 +68,4 @@ Os artefatos do projeto são desenvolvidos a partir das plataformas GitHub apres
 |Repositório de código fonte | GitHub | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t2-ads-e1-grupo2-doacao-de-alimentos/blob/main/README.md  |
 |Documentos do projeto  | GitHub | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t2-ads-e1-grupo2-doacao-de-alimentos/blob/main/ |
 |Gerenciamento do projeto  | GitHub | [https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/963/views/1](https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/963) |
+|Projeto de interface e wireframes  | MarvelApp | [https://marvelapp.com/prototype/10b96g40](https://marvelapp.com/prototype/10b96g40) |
