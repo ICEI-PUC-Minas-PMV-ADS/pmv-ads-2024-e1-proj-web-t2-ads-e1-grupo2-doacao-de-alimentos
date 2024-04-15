@@ -8,15 +8,11 @@ Para uma experiência interativa com o protótipo, visite o projeto .
 
 | Imagem 1 | Imagem 2 | Imagem 3 | Imagem 4 | Imagem 5 |
 |:---:|:---:|:---:|:---:|:---:|
-| ![alt_text](https://www.bing.com/images/blob?bcid=TkRIPYaHxOgGCj8Q-aRAvTRYVrbI.....1A) | ![alt_text](https://www.bing.com/images/blob?bcid=TkRIPYaHxOgGCj8Q-aRAvTRYVrbI.....1A) | ![alt_text](https://www.bing.com/images/blob?bcid=TkRIPYaHxOgGCj8Q-aRAvTRYVrbI.....1A) | ![alt_text](https://www.bing.com/images/blob?bcid=TkRIPYaHxOgGCj8Q-aRAvTRYVrbI.....1A) | ![alt_text](https://www.bing.com/images/blob?bcid=TkRIPYaHxOgGCj8Q-aRAvTRYVrbI.....1A) |
+| ![Login](https://www.bing.com/images/blob?bcid=TkRIPYaHxOgGCj8Q-aRAvTRYVrbI.....1A) | ![Cadastro instituição](https://www.bing.com/images/blob?bcid=TkRIPYaHxOgGCj8Q-aRAvTRYVrbI.....1A) | ![Cadastro PF](https://www.bing.com/images/blob?bcid=TkRIPYaHxOgGCj8Q-aRAvTRYVrbI.....1A) | ![Home](https://www.bing.com/images/blob?bcid=TkRIPYaHxOgGCj8Q-aRAvTRYVrbI.....1A) | ![Pontos de doação](httPps://www.bing.com/images/blob?bcid=TkRIPYaHxOgGCj8Q-aRAvTRYVrbI.....1A) |
 
 | Imagem 6 | Imagem 7 | Imagem 8 | Imagem 9 | Imagem 10 |
 |:---:|:---:|:---:|:---:|:---:|
-| ![alt_text](https://www.bing.com/images/blob?bcid=TkRIPYaHxOgGCj8Q-aRAvTRYVrbI.....1A) | ![alt_text](https://www.bing.com/images/blob?bcid=TkRIPYaHxOgGCj8Q-aRAvTRYVrbI.....1A) | ![alt_text](https://www.bing.com/images/blob?bcid=TkRIPYaHxOgGCj8Q-aRAvTRYVrbI.....1A) | ![alt_text](https://www.bing.com/images/blob?bcid=TkRIPYaHxOgGCj8Q-aRAvTRYVrbI.....1A) | ![alt_text](https://www.bing.com/images/blob?bcid=TkRIPYaHxOgGCj8Q-aRAvTRYVrbI.....1A) |
-
-| Imagem 11 |
-|:---:|
-| ![alt_text](https://www.bing.com/images/blob?bcid=TkRIPYaHxOgGCj8Q-aRAvTRYVrbI.....1A) |
+| ![Contato](https://www.bing.com/images/blob?bcid=TkRIPYaHxOgGCj8Q-aRAvTRYVrbI.....1A) | ![Pagina de Doações](https://www.bing.com/images/blob?bcid=TkRIPYaHxOgGCj8Q-aRAvTRYVrbI.....1A) | ![Sobre nós](https://www.bing.com/images/blob?bcid=TkRIPYaHxOgGCj8Q-aRAvTRYVrbI.....1A) | ![Campanhas](https://www.bing.com/images/blob?bcid=TkRIPYaHxOgGCj8Q-aRAvTRYVrbI.....1A) | ![Criar Campanhas](https://www.bing.com/images/blob?bcid=TkRIPYaHxOgGCj8Q-aRAvTRYVrbI.....1A) |
 
 Figura 1 - Trajetória das telas do usuário
 
