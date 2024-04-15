@@ -94,6 +94,8 @@ Figura 6 - Tela da Página para Contato
 ### Criação de Campanhas
 Esta página permitirá que os usuários criem suas próprias campanhas de doação.
 
+![campanha](img/campanha.png)
+
 ---
 
 ### Sobre a Empresa
