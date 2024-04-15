@@ -8,7 +8,7 @@ Para uma experiência interativa com o protótipo, visite o projeto .
 
 | Imagem 1 | Imagem 2 | Imagem 3 | Imagem 4 | Imagem 5 |
 |:---:|:---:|:---:|:---:|:---:|
-| ![Login](https://www.bing.com/images/blob?bcid=TkRIPYaHxOgGCj8Q-aRAvTRYVrbI.....1A) | ![Cadastro instituição](https://www.bing.com/images/blob?bcid=TkRIPYaHxOgGCj8Q-aRAvTRYVrbI.....1A) | ![Cadastro PF](https://www.bing.com/images/blob?bcid=TkRIPYaHxOgGCj8Q-aRAvTRYVrbI.....1A) | ![Home](https://www.bing.com/images/blob?bcid=TkRIPYaHxOgGCj8Q-aRAvTRYVrbI.....1A) | ![Pontos de doação](httPps://www.bing.com/images/blob?bcid=TkRIPYaHxOgGCj8Q-aRAvTRYVrbI.....1A) |
+| ![Login](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t2-ads-e1-grupo2-doacao-de-alimentos/assets/91226847/510511a0-b586-4bca-bf08-f9008f475fe7) | ![Cadastro instituição](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t2-ads-e1-grupo2-doacao-de-alimentos/assets/91226847/e05edd5a-0c09-4de9-b11a-94a2611289a3) | ![Cadastro PF](https://www.bing.com/images/blob?bcid=TkRIPYaHxOgGCj8Q-aRAvTRYVrbI.....1A) | ![Home](https://www.bing.com/images/blob?bcid=TkRIPYaHxOgGCj8Q-aRAvTRYVrbI.....1A) | ![Pontos de doação](httPps://www.bing.com/images/blob?bcid=TkRIPYaHxOgGCj8Q-aRAvTRYVrbI.....1A) |
 
 | Imagem 6 | Imagem 7 | Imagem 8 | Imagem 9 | Imagem 10 |
 |:---:|:---:|:---:|:---:|:---:|
