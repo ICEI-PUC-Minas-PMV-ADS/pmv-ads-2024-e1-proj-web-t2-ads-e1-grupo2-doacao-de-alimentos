@@ -6,7 +6,17 @@ A Figura 1 ilustra o caminho que o usuário percorre ao interagir com as diversa
 
 Para uma experiência interativa com o protótipo, visite o projeto .
 
-(ADICIONAR AQUI A TELA Fluxo de telas do usuário)
+| Imagem 1 | Imagem 2 | Imagem 3 | Imagem 4 | Imagem 5 |
+|:---:|:---:|:---:|:---:|:---:|
+| ![alt_text](https://www.bing.com/images/blob?bcid=TkRIPYaHxOgGCj8Q-aRAvTRYVrbI.....1A) | ![alt_text](https://www.bing.com/images/blob?bcid=TkRIPYaHxOgGCj8Q-aRAvTRYVrbI.....1A) | ![alt_text](https://www.bing.com/images/blob?bcid=TkRIPYaHxOgGCj8Q-aRAvTRYVrbI.....1A) | ![alt_text](https://www.bing.com/images/blob?bcid=TkRIPYaHxOgGCj8Q-aRAvTRYVrbI.....1A) | ![alt_text](https://www.bing.com/images/blob?bcid=TkRIPYaHxOgGCj8Q-aRAvTRYVrbI.....1A) |
+
+| Imagem 6 | Imagem 7 | Imagem 8 | Imagem 9 | Imagem 10 |
+|:---:|:---:|:---:|:---:|:---:|
+| ![alt_text](https://www.bing.com/images/blob?bcid=TkRIPYaHxOgGCj8Q-aRAvTRYVrbI.....1A) | ![alt_text](https://www.bing.com/images/blob?bcid=TkRIPYaHxOgGCj8Q-aRAvTRYVrbI.....1A) | ![alt_text](https://www.bing.com/images/blob?bcid=TkRIPYaHxOgGCj8Q-aRAvTRYVrbI.....1A) | ![alt_text](https://www.bing.com/images/blob?bcid=TkRIPYaHxOgGCj8Q-aRAvTRYVrbI.....1A) | ![alt_text](https://www.bing.com/images/blob?bcid=TkRIPYaHxOgGCj8Q-aRAvTRYVrbI.....1A) |
+
+| Imagem 11 |
+|:---:|
+| ![alt_text](https://www.bing.com/images/blob?bcid=TkRIPYaHxOgGCj8Q-aRAvTRYVrbI.....1A) |
 
 Figura 1 - Trajetória das telas do usuário
 
