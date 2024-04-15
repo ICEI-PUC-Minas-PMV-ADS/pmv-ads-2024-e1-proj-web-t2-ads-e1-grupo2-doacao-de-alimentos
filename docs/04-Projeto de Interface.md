@@ -122,11 +122,14 @@ Figura  - Tela de Login
 
 ### Tela - Cadastro
 
-A tela de Cadastro solicita que o usuário forneça informações como nome, endereço de e-mail, senha e confirmação de senha para criar uma nova conta. Após o preenchimento dos detalhes, o usuário pode clicar no botão 'Cadastrar' para criar sua conta.
+Na tela de cadastro o fluxo do usuário se divide em duas partes, primeiro temos o cadastro de instituições com os campos nome da empresa, CNPJ, email, confirmação do email, endereço, área de atuação da instituição, senha e confirmação de senha.
+Segundo fluxo é o cadastro de pessoas físicas com os campos nome completo, CPF, email, confirmação de email, CEP, endereço, senha e confirmação de senha.
 
-!Cadastro
+Essa tela de cadastro também será utilizada para a ação de visualizar e atualizar informações de cadastro dos dois tipos de perfis.
 
-Figura  - Tela de Cadastro
+
+
+![Logo do Markdown] (img/cadastro instituicao.png)
 
 ---
 ---
