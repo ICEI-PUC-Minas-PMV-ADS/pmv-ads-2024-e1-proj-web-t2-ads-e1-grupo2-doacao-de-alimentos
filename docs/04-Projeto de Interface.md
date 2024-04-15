@@ -75,10 +75,10 @@ Figura 5 - Tela da Página de Doações
 
 ---
 ### Pontos de Doações
-A página mostra locais de doação de alimentos por localização e horários. 
-Os detalhes incluem endereço e instruções.
+A página mostra locais de doações baseado na localização do usuário, assim mostrando as instituições mais próximas a ele.
 
-Figura 6 - Tela da Página de Pontos de Doações
+Tela da Página de Pontos de Doações
+![ponto-doacao](img/ponto-doacao.png)
 
 ---
 
