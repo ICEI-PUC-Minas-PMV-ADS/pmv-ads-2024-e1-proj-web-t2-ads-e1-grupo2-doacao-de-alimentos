@@ -52,7 +52,7 @@ Há uma seção onde os usuários podem consultar pontos de doações. Esta seç
 Na parte inferior da página, há um rodapé que contém links úteis, informações adicionais e ícones das redes sociais para conectar-se à organização.
 
 
-<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t2-ads-e1-grupo2-doacao-de-alimentos/assets/91226847/8742e50d-ec75-4cdc-8730-21bf4f4a4b79" width="200">
+<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t2-ads-e1-grupo2-doacao-de-alimentos/assets/91226847/8742e50d-ec75-4cdc-8730-21bf4f4a4b79" width="600">
 
 Figura 3 - Tela da Página Principal
 
@@ -128,8 +128,11 @@ Segundo fluxo é o cadastro de pessoas físicas com os campos nome completo, CPF
 Essa tela de cadastro também será utilizada para a ação de visualizar e atualizar informações de cadastro dos dois tipos de perfis.
 
 
+Tela de cadastro de instituição
+![cadastro-cnpj](img/cadastro-instituicao.png)
 
-![Logo do Markdown] (img/cadastro instituicao.png)
+Tela de cadastro de pessoa física
+![cadastro-pf](img/cadastro-pf.png)
 
 ---
 ---
