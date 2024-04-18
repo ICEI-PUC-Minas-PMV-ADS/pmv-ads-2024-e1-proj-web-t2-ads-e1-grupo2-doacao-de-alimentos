@@ -33,6 +33,8 @@ As telas do sistema seguem uma estrutura comum, ilustrada na Figura 2. Esta estr
 
 A página principal do nosso site de doação de alimentos exibe banners que direcionam os usuários para as páginas de **Home**, **Sobre**, **Cadastro**, **Pontos**. Além disso, apresenta uma descrição sucinta sobre o projeto.
 
+
+
 ### Cabeçalho com Menu de Navegação
 
 No topo da página, há um menu de navegação com várias opções, incluindo "Home", "Sobre" e outras opções. O logotipo da organização está posicionado no canto superior esquerdo.
@@ -104,8 +106,14 @@ Esta página permitirá que os usuários criem suas próprias campanhas de doaç
 
 ![campanha](img/campanha.png)
 
+FIgura 6- Tela das Campanhas
+
+---
+
 Tela de registro na criação de campanha
 ![campanha-criar](img/campanha-criar.png)
+
+Figura 7- Tela da Criação de Campanhas
 
 ---
 
@@ -114,7 +122,7 @@ Esta página fornecerá informações sobre a empresa, incluindo sua missão, vi
 
 ![Tela_sobrenos](img/Sobre_Nos.png)
 
-Figura 6 - Tela da Página sobre a empresa
+Figura 8 - Tela da Página sobre a empresa
 
 ---
 
@@ -122,11 +130,13 @@ Figura 6 - Tela da Página sobre a empresa
 
 A tela de Login solicita que o usuário insira suas credenciais, que são o nome de usuário e a senha. Se o usuário ainda não tiver uma conta, ele pode ser redirecionado para a tela de Cadastro através de um link na tela de Login.
 
-!Login
 
-Figura  - Tela de Login
 
 ![Tela_Login](img/Login.png)
+
+Figura 9 - Tela de Login
+
+---
 
 ### Tela - Cadastro
 
@@ -139,9 +149,16 @@ Essa tela de cadastro também será utilizada para a ação de visualizar e atua
 Tela de cadastro de instituição
 ![cadastro-cnpj](img/cadastro-instituicao.png)
 
+Figura 10- Tela de Cadastro pessoa jurídica
+
+---
+
+
 Tela de cadastro de pessoa física
 ![cadastro-pf](img/cadastro-pf.png)
 
+Figura 11- Tela de Cadastro pessoa física
+
 ---
----
+
 
