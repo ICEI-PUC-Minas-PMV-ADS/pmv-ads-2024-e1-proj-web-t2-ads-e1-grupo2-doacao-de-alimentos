@@ -89,6 +89,7 @@ Com base na análise das personas foram identificadas as seguintes histórias de
 |Administrador do Site | ter acesso a um painel de controle eficiente | gerenciar doações, cadastrar novas ONGs e projetos sociais, monitorar as atividades do site e garantir que tudo funcione sem problemas. |
 |Administrador do Site | ter acesso a um painel de controle eficiente | cadastrar e atualizar os pontos de doação e coleta para facilitar a logistica de distribuição de alimentos. |
 |Administrador do Site| ter acesso a um painel de controle eficiente | excluir doadores, ONGs ou pontos de doação ou coleta que não são mais ativos ou relevantes. |
+| Usuário | Receber uma confirmação visual após a submissão de um formulário, receber mensagens de erro claras e específicas quando ocorrer um erro, receber uma notificação de sucesso quando uma ação for bem-sucedida, que o sistema responda às minhas ações em um tempo razoável, e receber feedback, como um indicador de carregamento ou uma mensagem de "Por Favor, Aguarde" quando uma ação levar mais tempo para ser processada | Garantir que minha ação foi bem-sucedida, entender o que deu errado e como posso corrigir o problema, confirmar que minha ação foi realizada corretamente, ter uma experiência de usuário eficiente, e saber que o sistema está processando minha solicitação |
 
 ## Requisitos
 
