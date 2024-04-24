@@ -81,15 +81,15 @@ Com base na análise das personas foram identificadas as seguintes histórias de
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE`                                             |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|--------------------------------------------------------------------------------|----------------------------------------|
 |Doador de Alimento | cadastrar-me no site de doação de alimentos | receber doações e distribuílas de forma eficiente para as pessoas necessitadas. |
-|ONG | usar o site de doação de alimentos para solicitar doações  | oferecer refeições e suprimentos essenciais aos necessitados.  |
-|Projeto Social | usar o site de doação de alimentos para solicitar doações  | oferecer refeições e suprimentos essenciais aos necessitados.  |
+|Doador de Alimento | realizar o login no site  | para realizar doações. |
+|ONGs e Projetos Sociais | permitir que a instituição inclua itens desejados para doação | para maior acertividade das doações. |
 |Pessoa Física | encontrar os pontos de coleta de alimentos   | contribuir com doações e ajudar quem mais precisa. |
 |ONGs e Projetos Sociais | criar campanhas sazonais de doação, como "Natal Solidário" ou "Páscoa Generosa" | envolver toda a comunidade local na causa de doação de alimentos. |
 |Doadores de Alimento | conseguir manter contato diretamente com os receptores dos alimentos para doação | ter um melhor controle e noção de quem está recebendo os alimentos. |
-|Administrador do Site | ter acesso a um painel de controle eficiente | gerenciar doações, cadastrar novas ONGs e projetos sociais, monitorar as atividades do site e garantir que tudo funcione sem problemas. |
-|Administrador do Site | ter acesso a um painel de controle eficiente | cadastrar e atualizar os pontos de doação e coleta para facilitar a logistica de distribuição de alimentos. |
-|Administrador do Site| ter acesso a um painel de controle eficiente | excluir doadores, ONGs ou pontos de doação ou coleta que não são mais ativos ou relevantes. |
-| Usuário | Receber uma confirmação visual após a submissão de um formulário, receber mensagens de erro claras e específicas quando ocorrer um erro, receber uma notificação de sucesso quando uma ação for bem-sucedida, que o sistema responda às minhas ações em um tempo razoável, e receber feedback, como um indicador de carregamento ou uma mensagem de "Por Favor, Aguarde" quando uma ação levar mais tempo para ser processada | Garantir que minha ação foi bem-sucedida, entender o que deu errado e como posso corrigir o problema, confirmar que minha ação foi realizada corretamente, ter uma experiência de usuário eficiente, e saber que o sistema está processando minha solicitação |
+|Administrador do Site | ter acesso a um painel de controle eficiente | gerenciar instituições. |
+|Administrador do Site | ter acesso a um painel de controle eficiente | gerenciar usuários. |
+| Usuário | ter acesso as informações cadastradas | possa ter acesso as informações desejadas. |
+| Usuário | receber uma confirmação visual após a submissão de um formulário.| ter uma resposta da interação no site. |
 
 ## Requisitos
 
@@ -99,15 +99,14 @@ Com base na análise das personas foram identificadas as seguintes histórias de
 |------|-----------------------------------------|----|
 |RF-01| A aplicação deve permitir ao usuário cadastrar uma conta.   | ALTA | 
 |RF-02| A aplicação deve permitir ao usuário fazer o login da sua conta cadastrada.   | ALTA | 
-|RF-03| A aplicação deve oferecer uma funcionalidade de filtro de busca para permitir ao usuário procurar alimentos, doadores, ONGs ou projetos sociais.    | ALTA |
-|RF-04| A aplicação deve fornecer os pontos de coleta de alimentos.  | ALTA |
+|RF-03| A aplicação deve permitir a instituição cadastre os itens desejados para a doação.    | ALTA |
+|RF-04| A aplicação deve permitir que doadores físicos encontrem pontos de coleta de alimentos.  | ALTA |
 |RF-05| A aplicação deve permitir criar campanhas sazonais de doação de alimentos.    | ALTA |
 |RF-06| A aplicação deve permitir e facilitar o contato entre o doador e o receptor do alimento.   | MÉDIA |
-|RF-07| A aplicação deve permitir que o administrador atualize e exclua doadores, ONGs e pontos de doação ou coleta que nao são mais relevantes ou ativos.  | ALTO |
-|RF-08| A aplicação deve permitir que doadores físicos encontrem pontos de coleta de alimentos.  | ALTA |
-|RF-09| A aplicação deve permitir ao usuário verificar as informações registradas no cadastro na página Perfil, após fazer seu login.  | MÉDIA |
-|RF-10| A aplicação deve permitir o doador ver informações do receptor do alimento.  | ALTA |
-|RF-11| A aplicação deve permitir o receptor ver informações do doador do alimento.  | ALTA |
+|RF-07| A aplicação deve permitir  que o administrador  gerencie o cadastro de instituições. | ALTO |
+|RF-08| A aplicação deve permitir que o administrador gerencie o cadastro de usuários. | ALTA |
+|RF-09| A aplicação deve permitir ao usuário verificar as informações registradas no cadastro, após fazer seu login. | MÉDIA |
+|RF-10| O sistema deve fornecer feedback claro para ações do usuário, como confirmações de formulários e mensagens de erro.| ALTA |
 
 **Prioridade: Alta / Média / Baixa.  
 
@@ -119,7 +118,6 @@ Com base na análise das personas foram identificadas as seguintes histórias de
 |RNF-02| A aplicação deve ser responsiva, tendo boas exibições em diversos tamanhos de tela. Como em tablets, celulares e computadores.  | ALTA | 
 |RNF-03| O código-fonte deve ser de fácil compreensão e seguir as convenções de codificação estabelecidas pela equipe de desenvolvimento. Isso inclui a utilização de comentários claros e descritivos, nomes de variáveis e funções significativos, e a aderência a um estilo de codificação consistente que é documentado e compartilhado entre a equipe  | ALTA | 
 |RNF-04| A aplicação deve ser compatível com os navegadores O site deve ser compatível com os principais navegadores do mercado: Google Chrome, Opera e Microsoft Edge.  | ALTA | 
-|RNF-05| O sistema deve fornecer feedback claro para ações do usuário, como confirmações de formulários e mensagens de erro.  | ALTA | 
-|RNF-06| O sistema deve implementar políticas de senha robustas, incluindo requisitos de complexidade, Como um mínimo de 8 caracteres, com pelo menos uma letra maiúscula, uma letra minúscula, um número e um caractere especial.  | ALTA | 
+|RNF-05| O sistema deve implementar políticas de senha robustas, incluindo requisitos de complexidade, Como um mínimo de 8 caracteres, com pelo menos uma letra maiúscula, uma letra minúscula, um número e um caractere especial.  | ALTA | 
 
 **Prioridade: Alta / Média / Baixa.
