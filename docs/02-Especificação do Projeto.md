@@ -116,9 +116,9 @@ Com base na análise das personas foram identificadas as seguintes histórias de
 |-------|-------------------------|----|
 |RNF-01| A aplicação deve ser publicada em um ambiente acessível público na Internet.  | ALTA | 
 |RNF-02| A aplicação deve ser responsiva, tendo boas exibições em diversos tamanhos de tela. Como em tablets, celulares e computadores.  | ALTA | 
-|RNF-03| O código-fonte deve ser de fácil compreensão e seguir as convenções de codificação estabelecidas pela equipe de desenvolvimento.  | ALTA | 
+|RNF-03| O código-fonte deve ser de fácil compreensão e seguir as convenções de codificação estabelecidas pela equipe de desenvolvimento. Isso inclui a utilização de comentários claros e descritivos, nomes de variáveis e funções significativos, e a aderência a um estilo de codificação consistente que é documentado e compartilhado entre a equipe  | ALTA | 
 |RNF-04| A aplicação deve ser compatível com os navegadores O site deve ser compatível com os principais navegadores do mercado: Google Chrome, Opera e Microsoft Edge.  | ALTA | 
 |RNF-05| O sistema deve fornecer feedback claro para ações do usuário, como confirmações de formulários e mensagens de erro.  | ALTA | 
-|RNF-06| O sistema deve implementar políticas de senha robustas, incluindo requisitos de complexidade.  | ALTA | 
+|RNF-06| O sistema deve implementar políticas de senha robustas, incluindo requisitos de complexidade, Como um mínimo de 8 caracteres, com pelo menos uma letra maiúscula, uma letra minúscula, um número e um caractere especial.  | ALTA | 
 
 **Prioridade: Alta / Média / Baixa.
