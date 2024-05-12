@@ -65,7 +65,7 @@ O editor de código foi escolhido porque ele possui uma integração com o siste
 Os artefatos do projeto são desenvolvidos a partir das plataformas GitHub apresentadas com seu propósito na tabela que se segue.
 | AMBIENTE | PLATAFORMA |LINK DE ACESSO                 |
 |--------------------|--------------------------------------------------------------------------------|----------------------------------------|
-|Repositório de código fonte | GitHub | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t2-ads-e1-grupo2-doacao-de-alimentos/blob/main/README.md  |
+|Repositório de código fonte | GitHub | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t2-ads-e1-grupo2-doacao-de-alimentos/tree/main/codigo-fonte  |
 |Documentos do projeto  | GitHub | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t2-ads-e1-grupo2-doacao-de-alimentos/blob/main/ |
 |Gerenciamento do projeto  | GitHub | [https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/963/views/1](https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/963) |
 |Projeto de interface e wireframes  | MarvelApp | [https://marvelapp.com/prototype/10b96g40](https://marvelapp.com/prototype/10b96g40) |
