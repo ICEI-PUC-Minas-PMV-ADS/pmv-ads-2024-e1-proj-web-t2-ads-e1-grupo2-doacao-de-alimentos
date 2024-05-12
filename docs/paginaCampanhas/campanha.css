@@ -1,0 +1,40 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  /*Faz com que o tamanho total do elemento esteja incluido tanto o elemento como a propria borda */
+    list-style: none;
+    vertical-align: baseline;
+}
+
+p{
+    font-style: italic;
+    padding-top: 20px;
+}
+
+h4{
+    margin-top: 25px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.conteudo{
+    transition: background-color 0.3s ease;
+}
+
+.botaoCampanha{
+    padding: 100px 0;
+}
+
+ .conteudo :hover{
+    background-color: lightgray;
+    cursor: pointer;
+}
+
+.espacamento{
+    margin-bottom: 60px;
+}
+
+
