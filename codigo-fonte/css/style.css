@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  /*Faz com que o tamanho total do elemento esteja incluido tanto o elemento como a propria borda */
+    list-style: none;
+    vertical-align: baseline;
+}
+
+.hidden{
+    display: none;
+}
+
+label{
+    padding-top: 5%;
+}
+
+.space{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.redBox{
+    background-color: #fcbaba;
+}
