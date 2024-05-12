@@ -28,27 +28,29 @@ toggleNavbar();
 
 function findAddr(){
     let addr = document.getElementById('cep-pf')
-    var apiUrl = 'https://viacep.com.br/ws/' + addr.value +'/json/';
+    if(addr.value.length !== 0){
+        var apiUrl = 'https://viacep.com.br/ws/' + addr.value +'/json/';
 
-    // Realiza a requisição à API usando fetch
-    fetch(apiUrl)
-    .then(response => {
-        // Verifica se a resposta da API foi bem-sucedida
-        if (!response.ok) {
-            throw new Error('Erro ao consultar a API: ' + response.status);
-        }
-        // Converte a resposta para JSON
-        return response.json();
-    })
-    .then(data => {
-        // Manipula os dados recebidos da API
-        loadAddrResult(data);
-    })
-    .catch(error => {
-        // Captura e exibe erros
-        console.error('Erro na consulta da API:', error);
-        document.getElementById('resultado').innerHTML = 'Erro na consulta da API: ' + error.message;
-    });
+        // Realiza a requisição à API usando fetch
+        fetch(apiUrl)
+        .then(response => {
+            // Verifica se a resposta da API foi bem-sucedida
+            if (!response.ok) {
+                throw new Error('Erro ao consultar a API: ' + response.status);
+            }
+            // Converte a resposta para JSON
+            return response.json();
+        })
+        .then(data => {
+            // Manipula os dados recebidos da API
+            loadAddrResult(data);
+        })
+        .catch(error => {
+            // Captura e exibe erros
+            console.error('Erro na consulta da API:', error);
+            document.getElementById('resultado').innerHTML = 'Erro na consulta da API: ' + error.message;
+        });
+    }
 }
 
 
@@ -106,19 +108,26 @@ function validateCPF() {
     $('#cpf').removeClass('redBox');
 }
 
-function validateEmail(email) {
+function validateEmail() {
     // Expressão regular para validar o formato do e-mail
     let email = document.getElementById('email-pf')
     const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    if(regex.test(email)){
-        $('#cpf').removeClass('redBox');
+    if(regex.test(email.value)){
+        console.log('true no regx')
+        invalidBox(false, '#email-pf')
     }
     else{
-        $(box).addClass('redBox'); 
+        console.log('false no regx')
+        invalidBox(true, '#email-pf')
     }
 
 }
 
-function invalidBox(box){
-    $(box).addClass('redBox'); 
+function invalidBox(invalid, box){
+    if(invalid){
+        $(box).addClass('redBox'); 
+    }
+    else{
+        $(box).removeClass('redBox');
+    }
 }
