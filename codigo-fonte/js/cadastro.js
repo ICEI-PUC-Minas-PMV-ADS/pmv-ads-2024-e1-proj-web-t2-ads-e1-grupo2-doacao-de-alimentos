@@ -131,3 +131,49 @@ function invalidBox(invalid, box){
         $(box).removeClass('redBox');
     }
 }
+
+function save(){
+    var nome_pf = document.getElementById('nome-pf').value;
+    var cpf = document.getElementById('cpf').value;
+    var email_pf = document.getElementById('email-pf').value;
+    var cep_pf = document.getElementById('cep-pf').value;
+    var estado_pf = document.getElementById('estado-pf').value;
+    var cidade_pf = document.getElementById('cidade-pf').value;
+    var bairro_pf = document.getElementById('bairro-pf').value;
+    var log_pf = document.getElementById('logradouro-pf').value;
+    var num_pf = document.getElementById('numero-pf').value;
+    var comp_pf = document.getElementById('completo-end-pf').value;
+
+    if(nome_pf.length !== 0 || email_pf.length !== 0 || cep_pf.length !== 0){
+
+        var cookie_value = { 
+            "nome": nome_pf,
+            "cpf": cpf,
+            "mail": email_pf,
+            "cep": cep_pf,
+            "estado": estado_pf,
+            "cidade": cidade_pf,
+            "bairro": bairro_pf,
+            "logradouro": log_pf,
+            "numero_residencia": num_pf,
+            "complemento": comp_pf
+        };
+    
+        createCookie(cookie_value);
+    }
+    else{
+        alert("Preencha os campos obrigatórios (nome, email e cep)")
+    }
+}
+
+function createCookie(json) {
+    console.log(json)
+    // Convertendo o JSON para uma string
+    var jsonStr = JSON.stringify(json);
+    
+    // Codificando a string para que seja segura para ser armazenada em um cookie
+    var jsonEncoded = encodeURIComponent(jsonStr);
+    
+    // Definindo o cookie com a string codificada
+    document.cookie = "cadastro" + "=" + jsonEncoded + "; path=/";
+}
