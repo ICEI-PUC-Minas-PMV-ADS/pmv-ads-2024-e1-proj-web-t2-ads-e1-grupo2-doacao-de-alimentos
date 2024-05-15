@@ -4,7 +4,7 @@
 ## User Flow
 A Figura 1 ilustra o caminho que o usuário percorre ao interagir com as diversas telas do sistema. Cada tela é detalhada na seção subsequente, intitulada Protótipo de Baixa Fidelidade.
 
-Para uma experiência interativa com o protótipo, visite o projeto .
+Para uma experiência interativa com o protótipo, visite o projeto https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2024-e1-proj-web-t2-ads-e1-grupo2-doacao-de-alimentos/index.html#hero
 
 
 | Imagem 1 | Imagem 2 | Imagem 3 | Imagem 4 | Imagem 5 |

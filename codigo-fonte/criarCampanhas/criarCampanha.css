@@ -1,7 +1,0 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;  /*Faz com que o tamanho total do elemento esteja incluido tanto o elemento como a propria borda */
-    list-style: none;
-    vertical-align: baseline;
-}

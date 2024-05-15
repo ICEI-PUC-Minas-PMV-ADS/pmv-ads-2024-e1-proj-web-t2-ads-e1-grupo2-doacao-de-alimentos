@@ -1,12 +1,29 @@
-# Template Padrão da Aplicação
+# Template padrão da Aplicação
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>, <a href="4-Metodologia.md"> Metodologia</a>
+O layout padrão do site foi construído com as linguagens de marcação HTML  CSS e BOOTSTRAP, e a linguagem de programação JavaScript.
 
-Layout padrão da aplicação que será utilizado em todas as páginas com a definição de identidade visual, aspectos de responsividade e iconografia.
+As páginas terão como elementos padrões o menu de navegação, o header e o footer, além dos elementos de identidade visual citados abaixo:
 
-> **Links Úteis**:
->
-> - [CSS Website Layout (W3Schools)](https://www.w3schools.com/css/css_website_layout.asp)
-> - [Website Page Layouts](http://www.cellbiol.com/bioinformatics_web_development/chapter-3-your-first-web-page-learning-html-and-css/website-page-layouts/)
-> - [Perfect Liquid Layout](https://matthewjamestaylor.com/perfect-liquid-layouts)
-> - [How and Why Icons Improve Your Web Design](https://usabilla.com/blog/how-and-why-icons-improve-you-web-design/)
+<ul>
+<li>Cores: RGB: #f6f8f6, #083871, #9cbac1;</li>
+<li>Font-family: montserrat , poppins e sans-serif</li>
+<li>Font-size: 15px e 28px.</li>
+</ul>
+  
+O código utilizado para a construção dos elementos citados, incluindo a responsividade, pode ser consultado <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t2-ads-e1-grupo2-doacao-de-alimentos/tree/main/codigo-fonte">aqui</a>. As imagens e ícones utilizados no projeto estão disponíveis <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t2-ads-e1-grupo2-doacao-de-alimentos/tree/main/docs/img">aqui</a>.
+
+<h3><b>Home</b></h3>
+<p>Exibe todas as informações necessarias sobre a doação de alimentos. Desde informação sobre a empresa , itens para doação  e até ações realizadas</p>
+<figure> 
+  <img src="img/HomePage.jpeg">
+  <figcaption> Figura 1 - Home page
+</figure> 
+
+<hr>
+  
+<p>Para a criação do logotipo do site foi utilizada as cores verde , laranja e azul, pois são cores que remetem a conscientização e apresentam bom contraste entre si.</p>
+
+<figure> 
+  <img src="../codigo-fonte/paginaCampanhas/img/android-chrome-192x192.png" width="200" height="200">
+    <figcaption>Figura 2 - Logotipo da aplicação web de Doação de Alimentos
+</figure> 
