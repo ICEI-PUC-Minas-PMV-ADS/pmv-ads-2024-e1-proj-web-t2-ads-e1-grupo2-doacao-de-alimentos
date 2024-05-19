@@ -144,21 +144,26 @@ function save(){
             "complemento": comp_pf
         };
     
-        createCookie(cookie_value);
+        createLocalStorage(cookie_value);
     }
     else{
-        alert("Preencha os campos obrigatórios (nome, email e cep)")
+        alert("Preencha os campos obrigatórios (nome, email e cep)");
+        console.log('vazio');
     }
 }
 
-function createCookie(json) {
+function createLocalStorage(json) {
     console.log(json)
     // Convertendo o JSON para uma string
     var jsonStr = JSON.stringify(json);
     
     // Codificando a string para que seja segura para ser armazenada em um cookie
-    var jsonEncoded = encodeURIComponent(jsonStr);
+    //var jsonEncoded = encodeURIComponent(jsonStr);
     
     // Definindo o cookie com a string codificada
-    document.cookie = "cadastro" + "=" + jsonEncoded + "; path=/";
+    localStorage.setItem("cadastro", jsonStr);
+}
+
+function redirectHome(){
+
 }
