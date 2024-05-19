@@ -173,8 +173,3 @@ function createLocalStorage(json) {
     var jsonStr = JSON.stringify(json);    
     localStorage.setItem(json['email'], jsonStr);
 }
-
-function redirectHome(){
-    window.location.href="../home/index.html";
-}
-

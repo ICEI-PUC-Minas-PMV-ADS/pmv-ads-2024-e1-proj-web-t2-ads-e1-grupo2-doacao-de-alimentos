@@ -1,3 +1,6 @@
+function redirectHome(){
+  window.location.href="../home/index.html";
+}
 
 
 document.addEventListener('DOMContentLoaded', () => {

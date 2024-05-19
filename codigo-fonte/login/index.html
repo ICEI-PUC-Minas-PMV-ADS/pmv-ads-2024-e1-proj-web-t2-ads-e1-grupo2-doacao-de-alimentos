@@ -29,19 +29,7 @@
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-    <script>
-        $(document).ready(function() {
-            $('#loginForm').on('submit', function(e) {
-                e.preventDefault();
-                var email = $('#email').val();
-                var password = $('#password').val();
-                if (email === 'admin@admin.com' && password === '12345') {
-                    alert('Login realizado com sucesso');
-                } else {
-                    alert('Falha no login - Usuário ou senha inválidos');
-                }
-            });
-        });
-    </script>
+    <script src="../js/login.js"></script>
+    <script src="../js/main.js"></script>
 </body>
 </html>
