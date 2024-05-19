@@ -54,13 +54,13 @@ function validateCPF() {
 
     // Verificar se o CPF tem 11 dígitos
     if (cpf.length !== 11) {
-        invalidBox('#cpf');
+        validateBox(false, '#cpf');
         return;
     }
 
     // Verificar se todos os dígitos são iguais
     if (/^(\d)\1{10}$/.test(cpf)) {
-        invalidBox('#cpf');
+        validateBox(false, '#cpf');
         return;
     }
 
@@ -86,11 +86,10 @@ function validateCPF() {
 
     // Verificar se os dígitos verificadores são válidos
     if (parseInt(cpf.charAt(9)) !== digit1 || parseInt(cpf.charAt(10)) !== digit2) {
-        invalidBox('#cpf');
+        validateBox(false, '#cpf');
         return;
     }
-
-    $('#cpf').removeClass('redBox');
+    validateBox(true, '#cpf');
 }
 
 function validateEmail() {
@@ -98,22 +97,39 @@ function validateEmail() {
     let email = document.getElementById('email-pf')
     const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     if(regex.test(email.value)){
-        console.log('true no regx')
-        invalidBox(false, '#email-pf')
+        validateBox(true, '#email-pf')
     }
     else{
-        console.log('false no regx')
-        invalidBox(true, '#email-pf')
+        validateBox(false, '#email-pf')
     }
 
 }
 
-function invalidBox(invalid, box){
-    if(invalid){
-        $(box).addClass('redBox'); 
+function validateBox(valid, box){
+    if(valid){ 
+        $(box).removeClass('redBox');
     }
     else{
-        $(box).removeClass('redBox');
+        $(box).addClass('redBox');
+    }
+}
+
+function confirmEmail(email1, email2){
+    var _bool = compareFields(email1, email2);
+    validateBox(_bool, '#'+email2);
+}
+
+function confirmPassword(pass1, pass2){
+    var _bool = compareFields(pass1, pass2);
+    validateBox(_bool, '#'+pass2);
+}
+
+function compareFields(field1, field2){
+    if(document.getElementById(field1).value === document.getElementById(field2).value){
+        return true;
+    }
+    else{
+        return false;
     }
 }
 
@@ -134,7 +150,7 @@ function save(){
         var cookie_value = { 
             "nome": nome_pf,
             "cpf": cpf,
-            "mail": email_pf,
+            "email": email_pf,
             "cep": cep_pf,
             "estado": estado_pf,
             "cidade": cidade_pf,
@@ -145,25 +161,15 @@ function save(){
         };
     
         createLocalStorage(cookie_value);
+        redirectHome();
     }
     else{
         alert("Preencha os campos obrigatórios (nome, email e cep)");
-        console.log('vazio');
     }
 }
 
 function createLocalStorage(json) {
-    console.log(json)
     // Convertendo o JSON para uma string
-    var jsonStr = JSON.stringify(json);
-    
-    // Codificando a string para que seja segura para ser armazenada em um cookie
-    //var jsonEncoded = encodeURIComponent(jsonStr);
-    
-    // Definindo o cookie com a string codificada
-    localStorage.setItem("cadastro", jsonStr);
-}
-
-function redirectHome(){
-
+    var jsonStr = JSON.stringify(json);    
+    localStorage.setItem(json['email'], jsonStr);
 }
