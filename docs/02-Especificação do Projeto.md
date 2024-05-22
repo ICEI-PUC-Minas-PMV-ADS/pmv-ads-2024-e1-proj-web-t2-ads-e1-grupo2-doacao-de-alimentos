@@ -103,9 +103,9 @@ Com base na análise das personas foram identificadas as seguintes histórias de
 |RF-04| A aplicação deve permitir que doadores físicos encontrem pontos de coleta de alimentos.  | ALTA |
 |RF-05| A aplicação deve permitir criar campanhas sazonais de doação de alimentos.    | ALTA |
 |RF-06| A aplicação deve permitir e facilitar o contato entre o doador e o receptor do alimento.   | MÉDIA |
-|RF-07| A aplicação deve permitir  que o administrador  gerencie o cadastro de instituições. | ALTO |
-|RF-08| A aplicação deve permitir que o administrador gerencie o cadastro de usuários. | ALTA |
-|RF-09| A aplicação deve permitir ao usuário verificar as informações registradas no cadastro, após fazer seu login. | MÉDIA |
+|RF-07| A aplicação deve permitir  que o usuário tenha acesso a um vídeo de apresentação sobre o site. | MÉDIA |
+|RF-08| A aplicação deve permitir ver as campanhas que estão ativas.| ALTA |
+|RF-09| A aplicação deve permitir ao usuário verificar as informações registradas no cadastro, após fazer seu login. | ALTA |
 |RF-10| O sistema deve fornecer feedback claro para ações do usuário, como confirmações de formulários e mensagens de erro.| ALTA |
 
 **Prioridade: Alta / Média / Baixa.  
