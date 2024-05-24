@@ -72,7 +72,7 @@ section {
     overflow: clip;
 }
 /*--------------------------------------------------------------
-  # Section Conteúdos
+  # Section Conteúdos campanhas
   --------------------------------------------------------------*/
 .wrapper{
     padding: 10px 5%;
@@ -111,6 +111,7 @@ section {
     left: 0;
     bottom: 0;
     overflow: hidden;
+    overflow-y: scroll;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -118,7 +119,13 @@ section {
     padding: 0 40px;
     text-align: center;
     font-size: 14px;
-    transition: height 0.5s;
+    transition: height 0.8s;
+}
+
+.overlay::-webkit-scrollbar{
+    background-color: rgba(0, 131, 116, 0.8);
+    width: 4px;
+    border-radius: 10px;
 }
 
 .overlay h3 {
@@ -147,8 +154,35 @@ section {
 }
 
 .box:hover .overlay {
-    height: 180%;
+    height: 130%;
 
+}
+
+.botao{
+    background: var(--color-primary);
+    border: 0;
+    padding: 14px 45px;
+    color: #fff;
+    transition: 0.4s;
+    border-radius: 50px;
+}
+
+.botao:hover{
+    background: rgba(0, 131, 116, 0.8);
+}
+
+#criarCampanha button a {
+    color: #fff;
+}
+
+/* Responsive Cards Campanha */
+
+@media screen and ( max-width: 768px){
+
+    .box:hover .overlay {
+        height: 100%;
+    
+    }
 }
 
 
