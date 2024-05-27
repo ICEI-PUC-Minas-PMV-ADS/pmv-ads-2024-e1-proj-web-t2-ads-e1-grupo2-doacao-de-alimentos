@@ -30,6 +30,7 @@
 </head>
 
 <body>
+  <!--Start header-->
   <header id="header" class="header d-flex align-items-center">
 
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
@@ -41,10 +42,10 @@
       <nav id="navbar" class="navbar">
         <ul>
           <li><a href="../home/index.html">Home</a></li>
-          <li><a href="#about">Sobre nós</a></li>
+          <li><a href="../home/index.html#about">Sobre nós</a></li>
           <li><a href="#">Campanhas</a></li>
-          <li><a href="#portfolio">Doações</a></li>
-          <li><a href="#team">Nosso Time</a></li>
+          <li><a href="../home/index.html#portfolio">Doações</a></li>
+          <li><a href="../home/index.html#team">Nosso Time</a></li>
           <li class="dropdown"><a href="#"><span>Pontos de Doação</span> <i
                 class="bi bi-chevron-down dropdown-indicator"></i></a>
             <ul>
@@ -73,17 +74,20 @@
   </header><!-- End Header -->
 
   <section><!--Inicio Section Conteúdos-->
-    <div class="text-center"><!--Inicio do Botão Criar Campanhas-->
-      <button class="btn btn-outline-info">Criar Campanha</button>
+    <div class="text-center" id="criarCampanha"><!--Inicio do Botão Criar Campanhas-->
+      <button type="submit" class="botao">
+        <a href="criarCampanhas.html">Criar Campanha</a>
+      </button>
     </div><!--Fim do Botão Criar Campanhas-->
     <div class="card-area"><!--Inicio Container-->
       <div class="wrapper">
-        <div class="box-area">
+        <div class="box-area" id="card-container">
           <div class="box">
             <img src="img/crianca.png" alt="Imagem campanha de doação">
             <div class="overlay">
               <h3 class="fst-italic fw-bold">Campanha de dia das Crianças</h3>
-              <p class="fst-italic">Neste Dia das Crianças, transforme a alegria em solidariedade! Participe da nossa campanha de doação de
+              <p class="fst-italic">Neste Dia das Crianças, transforme a alegria em solidariedade! Participe da nossa
+                campanha de doação de
                 alimentos e faça a diferença na vida de muitas famílias. Com sua contribuição, poderemos proporcionar
                 refeições nutritivas e momentos felizes para crianças que precisam. Juntos, podemos espalhar sorrisos e
                 fazer deste dia uma verdadeira celebração de amor e generosidade. Doe e ajude a construir um futuro mais
@@ -91,7 +95,7 @@
               <i class="bi bi-person-lines-fill">Contatos:</i>
               <i class="bi bi-envelope">Exemplo1@gmail.com</i>
               <i class="bi bi-telephone">9999-9999</i>
-              <a href="" class="btn btn-info">Doe agora</a>
+              <a href="../home/index.html#portfolio" class="botao">Doe agora</a>
             </div>
           </div>
 
@@ -99,7 +103,8 @@
             <img src="img/natalsolidario.webp" alt="Imagem campanha de doação">
             <div class="overlay">
               <h3 class="fst-italic fw-bold">Campanha Natal Solidário</h3>
-              <p class="fst-italic">Neste Natal, espalhe o verdadeiro espírito da solidariedade! Participe da nossa campanha de doação de
+              <p class="fst-italic">Neste Natal, espalhe o verdadeiro espírito da solidariedade! Participe da nossa
+                campanha de doação de
                 alimentos e ajude a encher de esperança e alegria a mesa de muitas famílias. Com sua generosidade,
                 podemos proporcionar ceias natalinas dignas e momentos inesquecíveis para aqueles que mais precisam.
                 Juntos, podemos fazer deste Natal uma época de amor, união e renovação. Doe e ajude a construir um
@@ -107,7 +112,7 @@
               <i class="bi bi-person-lines-fill">Contatos:</i>
               <i class="bi bi-envelope">Exemplo2@gmail.com</i>
               <i class="bi bi-telephone">9988-8899</i>
-              <a href="" class="btn btn-info">Doe agora</a>
+              <a href="../home/index.html#portfolio" class="botao">Doe agora</a>
             </div>
           </div>
 
@@ -123,7 +128,7 @@
               <i class="bi bi-person-lines-fill">Contatos:</i>
               <i class="bi bi-envelope">Exemplo3@gmail.com</i>
               <i class="bi bi-telephone">9977-7799</i>
-              <a href="" class="btn btn-info">Doe agora</a>
+              <a href="../home/index.html#portfolio" class="botao">Doe agora</a>
             </div>
           </div>
         </div>
@@ -208,6 +213,36 @@
   <script src="vendor/swiper/swiper-bundle.min.js"></script>
   <script src="vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="vendor/php-email-form/validate.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const cardContainer = document.getElementById('card-container');
+
+      const loadCards = () => {
+        const cards = JSON.parse(localStorage.getItem('cards')) || [];
+        if (cards.length > 0) {
+          cards.forEach(card => {
+            const cardHtml = `<div class="box">
+                        <img src="${card.imagem}" alt="Imagem campanha de doação">
+                        <div class="overlay">
+                            <h3 class="fst-italic fw-bold">${card.nome}</h3>
+                            <p class="fst-italic">${card.descricao}</p>
+                            <i class="bi bi-person-lines-fill">Contatos:</i>
+                            <i class="bi bi-envelope">${card.email}</i>
+                            <i class="bi bi-telephone">${card.telefone}</i>
+                            <a href="../home/index.html#portfolio" class="botao">Doe agora</a>
+                        </div>
+                    </div>`;
+            cardContainer.innerHTML += cardHtml;
+          });
+        } else {
+          console.log('Nenhum dado do formulário encontrado no armazenamento local.');
+        }
+      };
+
+      loadCards(); // Carrega os cards ao iniciar a página
+    });
+  </script>
+
 </body>
 
 </html>

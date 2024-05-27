@@ -21,6 +21,7 @@ function mobileNavToogle() {
 /**
  * Hide mobile nav on same-page/hash links
  */
+
 document.querySelectorAll('#navbar a').forEach(navbarlink => {
 
     if (!navbarlink.hash) return;
@@ -39,6 +40,7 @@ document.querySelectorAll('#navbar a').forEach(navbarlink => {
 /**
  * Toggle mobile nav dropdowns
  */
+
 const navDropdowns = document.querySelectorAll('.navbar .dropdown > a');
 
 navDropdowns.forEach(el => {
@@ -54,3 +56,8 @@ navDropdowns.forEach(el => {
         }
     })
 });
+
+
+
+
+
