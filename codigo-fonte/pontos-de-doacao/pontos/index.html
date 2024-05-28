@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Doação de Alimentos - Index</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+  <!--Icon da Página-->
+
+  <link rel="shortcut icon" href="../paginaCampanhas/img/android-chrome-192x192.png" type="image/x-icon">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <header id="header" class="header d-flex align-items-center">
+
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+      <a href="index.html" class="logo d-flex align-items-center">
+        <img src="./assets/img/image-Photoroom.png-Photoroom.png" alt="logo" class="logo" width="50px" height="150px">
+        <h1>Doação de Alimentos<span>.</span></h1>
+      </a>
+      <nav id="navbar" class="navbar">
+        <ul>
+                <li><a href="../../home/">Home</a></li>
+          <li><a href="#about">Sobre nós</a></li>
+          <li><a href="../paginaCampanhas/campanha.html">Campanhas</a></li>
+          <li><a href="#portfolio">Doações</a></li>
+          <li><a href="#team">Nosso Time</a></li>
+<li><a href="../pontos/index.html"><span>Pontos de Doação</span> </a>
+          <li><a href="#contact">Contato</a></li>
+          <li><a href="../login/index.html">Login</a></li>
+        </ul>
+      </nav><!-- .navbar -->
+
+      <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+      <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+
+    </div>
+  </header><!-- End Header -->
+ 
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css">
+
+  <style>
+    body {
+      font-family: sans-serif;
+    }
+
+    #mapa {
+      height: 400px; /* Adjust the height of the map */
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Doação de Alimentos</h1>
+
+<div class="row" style="padding: 50px; margin-bottom: 10px;">
+      <div class="col-md-6">
+        <div id="mapa"></div>
+      </div>
+      <div class="col-md-6">
+        <div id="informacoes-doacao" class="card">
+          <div class="card-header">
+            <h5 class="card-title">Ponto de Doação</h5>
+          </div>
+          <div class="card-body">
+            <p id="nome-doacao" class="card-text"></p>
+            <p id="endereco-doacao" class="card-text"></p>
+            <p id="tipo-doacao" class="card-text"></p>
+            <p id="horario-doacao" class="card-text"></p>
+            <p id="telefone-doacao" class="card-text"></p>
+
+          
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
+
+    <div class="container">
+      <div class="row gy-4">
+        <div class="col-lg-5 col-md-12 footer-info">
+          <a href="index.html" class="logo d-flex align-items-center">
+            <span>Doação de Alimentos</span>
+          </a>
+          <p>Somos um site de doação de alimentos, conectando necessitados a doadores generosos para combater a insegurança alimentar. Com detalhes sobre doações e locais de coleta, proporcionamos um ambiente confiável para colaboração. Sua ajuda é essencial para expandir nosso impacto e construir um futuro mais justo e inclusivo. Junte-se a nós nessa causa de amor e solidariedade.</p>
+          <div class="social-links d-flex mt-4">
+            <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+            <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+            <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+            <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-6 footer-links">
+          <h4>Links úteis:</h4>
+          <ul>
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">Sobre nós</a></li>
+            <li><a href="#portfolio">Doações</a></li>
+            <li><a href="#team">Nosso time</a></li>
+            <li><a href="#contact">Contato</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-6 footer-links">
+          <h4>Nossas ações</h4>
+          <ul>
+            <li><a href="#">Dia das Crianças</a></li>
+            <li><a href="#">Natal Solidário</a></li>
+            <li><a href="#">Páscoa Solidária</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+          <h4>Contato</h4>
+          <p>
+            Rua Vinte, Bairro Dois <br>
+            Estado Três<br>
+            Brasil <br><br>
+            <strong>Telefone:</strong> (99) 99999-9999<br>
+            <strong>Email:</strong> principal@alimento.com<br>
+          </p>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container mt-4">
+      <div class="copyright">
+         Todos direitos reservados
+      </div>
+      
+    </div>
+
+  </footer><!-- End Footer -->
+  <!-- End Footer -->
+
+  <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"></script>
+  <script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js"></script>
+
+  <script>
+    // Create the Leaflet map
+    var mapa = L.map('mapa').setView([-23.55, -46.63], 5); // Initial zoom set to show most of Brazil
+
+    // Add a tile layer to the map
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors',
+      maxZoom: 18,
+    }).addTo(mapa);
+
+    // Define some example data for donation points (replace with actual data)
+var regioes = [
+// 
+{ nome: "Belo Horizonte - MG", latitude: -19.92, longitude: -43.93 },
+{ nome: "São Paulo - SP", latitude: -23.55, longitude: -46.63 },
+{ nome: "Rio de Janeiro - RJ", latitude: -22.91, longitude: -43.21 },
+{ nome: "Vitória - ES", latitude: -20.31, longitude: -40.32 },
+{ nome: "Florianópolis - SC", latitude: -27.56, longitude: -48.52 },
+
+// Sul
+{ nome: "Porto Alegre - RS", latitude: -30.03, longitude: -51.23 },
+{ nome: "Curitiba - PR", latitude: -25.42, longitude: -49.67 },
+{ nome: "Florianópolis - SC", latitude: -27.56, longitude: -48.52 },
+{ nome: "Caxias do Sul - RS", latitude: -29.18, longitude: -51.18 },
+{ nome: "Porto Alegre - RS", latitude: -30.03, longitude: -51.23 },
+
+// Nordeste
+{ nome: "Salvador - BA", latitude: -12.97, longitude: -38.47 },
+{ nome: "Fortaleza - CE", latitude: -3.73, longitude: -38.40 },
+{ nome: "Recife - PE", latitude: -8.06, longitude: -34.90 },
+{ nome: "João Pessoa - PB", latitude: -7.98, longitude: -34.87 },
+{ nome: "Natal - RN", latitude: -5.79, longitude: -35.21 },
+
+// Norte
+{ nome: "Belém - PA", latitude: -1.45, longitude: -48.50 },
+{ nome: "Palmas - TO", latitude: -10.24, longitude: -48.35 },
+{ nome: "Rio Branco - AC", latitude: -9.97, longitude: -67.81 },
+{ nome: "Manaus - AM", latitude: -3.14, longitude: -60.02 },
+{ nome: "Belém - PA", latitude: -1.45, longitude: -56.02 },
+{ nome: "Macapá - AP", latitude: 0.02, longitude: -51.75 },
+{ nome: "Santana - AP", latitude: 0.00, longitude: -51.19 },
+{ nome: "Boa Vista - RR", latitude: 4.91, longitude: -69.94 },
+
+// Center-West
+{ nome: "Cuiabá - MT", latitude: -15.60, longitude: -56.10 },
+{ nome: "Campo Grande - MS", latitude: -20.45, longitude: -54.65 },
+{ nome: "Goiânia - GO", latitude: -16.68, longitude: -49.25 },
+{ nome: "Brasília - DF", latitude: -15.78, longitude: -47.93 },
+{ nome: "Cuiabá - MT", latitude: -15.60, longitude: -56.10 },
+{ nome: "Campo Grande - MS", latitude: -20.45, longitude: -54.65 },
+{ nome: "Goiânia - GO", latitude: -16.68, longitude: -49.25 },
+{ nome: "Brasília - DF", latitude: -15.78, longitude: -47.93 },
+{ nome: "Cuiabá - MT", latitude: -15.60, longitude: -56.10 },
+{ nome: "Campo Grande - MS", latitude: -20.45, longitude: -54.65 },
+{ nome: "Goiânia - GO", latitude: -16.68, longitude: -49.25 },
+{ nome: "Brasília - DF", latitude: -15.78, longitude: -47.93 },
+{ nome: "Cuiabá - MT", latitude: -15.60, longitude: -56.10 },
+{ nome: "Campo Grande - MS", latitude: -20.45, longitude: -54.65 },
+{ nome: "Goiânia - GO", latitude: -16.68, longitude: -49.25 },
+{ nome: "Brasília - DF", latitude: -15.78, longitude: -47.93 },
+{ nome: "Cuiabá - MT", latitude: -15.60, longitude: -56.10 },
+{ nome: "Campo Grande - MS", latitude: -20.45, longitude: -54.65 },
+{ nome: "Goiânia - GO", latitude: -16.68, longitude: -49.25 },
+{ nome: "Brasília - DF", latitude: -15.78, longitude: -47.93 },
+{ nome: "Brasília - DF", latitude: -15.88, longitude: -47.88 },
+{ nome: "Goiânia - GO", latitude: -16.69, longitude: -49.25 },
+{ nome: "Campo Grande - MS", latitude: -20.47, longitude: -54.60 },
+{ nome: "Cuiabá - MT", latitude: -15.88, longitude: -56.17 },
+{ nome: "Porto Velho - RO", latitude: -8.77, longitude: -69.32 },
+];
+
+    // Loop through donation points and add markers to the map
+    for (var i = 0; i < regioes.length; i++) {
+      var marker = L.marker([regioes[i].latitude, regioes[i].longitude]).addTo(mapa);
+      marker.bindPopup("<b>" + regioes[i].nome + "</b><br>Ponto de Doação (clique aqui para mais informações)");
+      marker.on('click', function(e) {
+        // Update the donation point information card
+        $("#nome-doacao").text("Nome: " + e.target.getPopup().getContent().split("<br>")[0].replace("<b>", "").replace("</b>", ""));
+        $("#endereco-doacao").text("Endereço: " + e.latlng.lat + ", " + e.latlng.lng);
+        $("#tipo-doacao").text("Tipo de doação: alimentos não perecíveis");
+        $("#horario-doacao").text("Horário de funcionamento: 08:00 - 17:00");
+$("#telefone-doacao").text("Telefone: (99) 99999-9999");
+      });
+    
+    }
+  </script>
+
+</body>
+
+</html>
