@@ -97,9 +97,15 @@
                         onkeypress="return event.charCode >= 48 && event.charCode <= 57" maxlength="11"
                         placeholder="Digite seu número com seu DDD" required>
 
-                    <label for="descricaoCampanha" class="mt-5">Descreva aqui sua campanha</label>
+                    <label for="descricaoCampanha" class="mt-5 form-label">Descreva aqui sua campanha</label>
                     <textarea id="descricaoCampanha" class="form-control w-50 m-auto"
                         placeholder="Escreva uma breve descrição da sua campanha (Max: 452 caracteres)" maxlength="452"></textarea required>
+                    
+                    <label for="dataInicioCampanha" class="form-label mt-5">Data de Início da Campanha</label>
+                    <input type="date" id="dataInicioCampanha" class="form-control w-50 m-auto">
+
+                    <label for="dataFimCampanha" class="form-label mt-5">Data do Fim da Campanha</label>
+                    <input type="date" id="dataFimCampanha" class="form-control w-50 m-auto">
 
                     <button type="submit" class="botao mt-5 w-75 m-auto" id="botaoCampanha">Criar Campanha</button>
 
@@ -204,7 +210,14 @@
                 const emailCampanha = document.getElementById('emailCampanha').value;
                 const telCampanha = document.getElementById('telefone').value;
                 const descricaoCampanha = document.getElementById('descricaoCampanha').value;
+                const dataInicioCampanha = document.getElementById('dataInicioCampanha').value;
+                const dataFimCampanha = document.getElementById('dataFimCampanha').value;
                 const imagemCampanha = document.getElementById('formFile').files[0];
+
+                const [ano, mes, dia] = dataInicioCampanha.split('-');
+                const [ano2, mes2, dia2] = dataFimCampanha.split('-');
+                const dataInicioFormatada = `${dia}/${mes}/${ano}`;
+                const dataFimFormatada = `${dia2}/${mes2}/${ano2}`;
 
                 if (imagemCampanha) {
                     const reader = new FileReader();
@@ -220,6 +233,8 @@
                             email: emailCampanha,
                             telefone: telCampanha,
                             descricao: descricaoCampanha,
+                            dataInicio: dataInicioFormatada,
+                            dataFim: dataFimFormatada,
                             imagem: imgBase64
                         });
 
