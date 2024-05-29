@@ -54,7 +54,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
      <li>RF-10: O sistema deve fornecer feedback claro para ações do usuário, como confirmações de formulários e mensagens de erro.</li>
    </ul>
   </td>
-  <td>Verificar se a parte de contatos da Home está correta , corretamente dividida e se está dando feedback claro das ações do usuário.</td>
+  <td>Verificar se a parte de contatos da Home está correta, corretamente dividida e se está dando feedback claro das ações do usuário.</td>
   <td>
    <ol>
     <li>Acessar o navegador.</li>
@@ -67,5 +67,38 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
    </td>
   <td>Deve ocorrer uma validação das informações fornecidas pelo usuário e ao clicar em 'Enviar', deve aparecer uma mensagem agradecendo o contato.</td>
   <td>Rodrigo</td>
+ </tr>
+</table>
+
+<table>
+ <tr>
+  <th>Caso de teste</th>
+  <th>Requisitos associados</th>
+  <th>Objetivo do teste</th>
+  <th>Passos</th>
+  <th>Critérios de êxito</th>
+  <th>Responsável</th>
+ </tr>
+ <tr>
+  <td>CT-03: Verificar o funcionamento da parte de criação de campanhas</td>
+  <td>
+   <ul>
+    <li>RF-05: A aplicação deve permitir criar campanhas sazonais de doação de alimentos.</li>
+   </ul>
+  </td>
+  <td>Verificar se a parte de criação de campanhas está correta, mostrando campanhas criadas e se está criando campanhas ao usuário tentar criar.</td>
+  <td>
+   <ol>
+    <li>Acessar o navegador.</li>
+    <li>Informar o endereço do site.</li>
+    <li>Visualizar a página Home.</li>
+    <li>Ir para a parte de criação de campanhas.</li>
+    <li>Verificar as campanhas</li>
+    <li>Clicar em 'Criar campanha'.</li>
+    <li>Preencher os dados requisitados para a criação de campanha</li>
+   </ol>
+   </td>
+  <td>As campanhas criadas devem aparecer, mostrando suas especificações. A opção "Criar campanhas" devem adicionar corretamente as campanhas de usuários que queiram utilizá-la.</td>
+  <td>Danilo</td>
  </tr>
 </table>
