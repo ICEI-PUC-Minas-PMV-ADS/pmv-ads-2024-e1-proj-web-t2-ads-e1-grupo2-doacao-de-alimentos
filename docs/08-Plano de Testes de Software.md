@@ -84,6 +84,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <td>
    <ul>
     <li>RF-05: A aplicação deve permitir criar campanhas sazonais de doação de alimentos.</li>
+    <li>RF-08: A aplicação deve permitir ver as campanhas que estão ativas.</li>
    </ul>
   </td>
   <td>Verificar se a parte de criação de campanhas está correta, mostrando campanhas criadas e se está criando campanhas ao usuário tentar criar.</td>
@@ -99,7 +100,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
     <li>Clicar  em 'Enviar'</li>
    </ol>
    </td>
-  <td>As campanhas criadas devem aparecer, mostrando suas especificações. A opção "Criar campanhas" devem adicionar corretamente as campanhas de usuários que queiram utilizá-la.</td>
+  <td>As campanhas ativas devem aparecer, mostrando suas especificações. A opção "Criar campanhas" deve adicionar corretamente as campanhas de usuários que queiram utilizá-la.</td>
   <td>Danilo</td>
  </tr>
 </table>
