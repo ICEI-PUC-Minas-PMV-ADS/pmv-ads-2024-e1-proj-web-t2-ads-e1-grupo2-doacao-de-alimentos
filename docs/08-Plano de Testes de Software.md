@@ -96,6 +96,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
     <li>Verificar as campanhas</li>
     <li>Clicar em 'Criar campanha'.</li>
     <li>Preencher os dados requisitados para a criação de campanha</li>
+    <li>Clicar  em 'Enviar'</li>
    </ol>
    </td>
   <td>As campanhas criadas devem aparecer, mostrando suas especificações. A opção "Criar campanhas" devem adicionar corretamente as campanhas de usuários que queiram utilizá-la.</td>
