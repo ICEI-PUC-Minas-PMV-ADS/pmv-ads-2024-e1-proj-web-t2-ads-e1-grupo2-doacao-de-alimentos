@@ -94,7 +94,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
     <li>Informar o endereço do site.</li>
     <li>Visualizar a página Home.</li>
     <li>Ir para a parte de criação de campanhas.</li>
-    <li>Verificar as campanhas</li>
+    <li>Verificar as campanhas.</li>
     <li>Clicar em 'Criar campanha'.</li>
     <li>Preencher os dados requisitados para a criação de campanha</li>
     <li>Clicar  em 'Enviar'</li>
@@ -104,3 +104,45 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <td>Danilo</td>
  </tr>
 </table>
+
+<table>
+ <tr>
+  <th>Caso de teste</th>
+  <th>Requisitos associados</th>
+  <th>Objetivo do teste</th>
+  <th>Passos</th>
+  <th>Critérios de êxito</th>
+  <th>Responsável</th>
+ </tr>
+ <tr>
+  <td>CT-03: Verificar o funcionamento da parte de login e cadastro do site</td>
+  <td>
+   <ul>
+    <li>RF-01: A aplicação deve permitir ao usuário cadastrar uma conta.</li>
+    <li>RF-02: A aplicação deve permitir ao usuário fazer o login da sua conta cadastrada.</li>
+    <li>RF-09: A aplicação deve permitir ao usuário verificar as informações registradas no cadastro, após fazer seu login.</li>
+    <li>RF-10: O sistema deve fornecer feedback claro para ações do usuário, como confirmações de formulários e mensagens de erro.</li>
+   </ul>
+  </td>
+  <td>Verificar se a parte de login e cadastro está correta, registrando corretamente tanto pela aba de pessoa física, quanto a aba de pessoa jurídica. Verificar também se o sistema fornece um feedback após o registro do usuário, confirmando o cadastro</td>
+  <td>
+   <ol>
+    <li>Acessar o navegador.</li>
+    <li>Informar o endereço do site.</li>
+    <li>Visualizar a página Home.</li>
+    <li>Ir para a parte de login.</li>
+    <li>Preencher os dados requisitados para login</li>
+    <li>Clicar em 'Enviar'.</li>
+    <li>Verificar se recebe um feedback de cadastro feito com sucesso</li>
+    <li>Em caso de cadastro, clicar na opção 'Cadastro' na tela de login</li>
+    <li>Selecionar a opção 'Pessoa Física' ou 'Pessoa Jurídica'</li>
+    <li>Preencher os dados requisitados para o cadastro (Pessoa Física ou Pessoa Jurídica)</li>
+    <li>Clicar  em 'Enviar'</li>
+    <li>Verificar se recebe um feedback de cadastro feito com sucesso</li>
+   </ol>
+   </td>
+  <td>O usuário deve fazer o login. Em caso de ainda não possuir um login, deverá fazer seu cadastro, preenchendo informações com base no cadastro de Pessoa Física ou Pessoa Jurídica.</td>
+  <td></td>
+ </tr>
+</table>
+
