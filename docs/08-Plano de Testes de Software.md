@@ -115,7 +115,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <th>Responsável</th>
  </tr>
  <tr>
-  <td>CT-03: Verificar o funcionamento da parte de login e cadastro do site</td>
+  <td>CT-04: Verificar o funcionamento da parte de login e cadastro do site</td>
   <td>
    <ul>
     <li>RF-01: A aplicação deve permitir ao usuário cadastrar uma conta.</li>
