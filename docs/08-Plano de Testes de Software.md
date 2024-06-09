@@ -80,7 +80,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <th>Responsável</th>
  </tr>
  <tr>
-  <td>CT-03: Verificar o funcionamento da parte de criação de campanhas</td>
+  <td>CT-03: Verificar o funcionamento da parte de criação de campanhas.</td>
   <td>
    <ul>
     <li>RF-05: A aplicação deve permitir criar campanhas sazonais de doação de alimentos.</li>
@@ -115,7 +115,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <th>Responsável</th>
  </tr>
  <tr>
-  <td>CT-04: Verificar o funcionamento da parte de login do site</td>
+  <td>CT-04: Verificar o funcionamento da parte de login do site.</td>
   <td>
    <ul>
     <li>RF-02: A aplicação deve permitir ao usuário fazer o login da sua conta cadastrada.</li>
@@ -151,7 +151,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <th>Responsável</th>
  </tr>
  <tr>
-  <td>CT-05: Verificar o funcionamento da parte de cadastro do site</td>
+  <td>CT-05: Verificar o funcionamento da parte de cadastro do site.</td>
   <td>
    <ul>
     <li>RF-01: A aplicação deve permitir ao usuário cadastrar uma conta.</li>
