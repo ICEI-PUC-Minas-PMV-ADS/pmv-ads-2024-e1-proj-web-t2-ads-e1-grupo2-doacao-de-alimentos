@@ -28,7 +28,7 @@ Os testes funcionais realizados na aplicação web são descritos a seguir.
 
  <li> CT-01: Verificar o funcionamento da parte de produtos na Home Page.
 
-    Responsável: Rodrigo.
+    Responsável: Rodrigo
 
   https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t2-ads-e1-grupo2-doacao-de-alimentos/assets/123666533/1f48e720-6d6c-4a6c-b2e8-8cde3775f8a8
 
@@ -36,7 +36,7 @@ Os testes funcionais realizados na aplicação web são descritos a seguir.
 
    <li> CT-02: Verificar o funcionamento da parte de contatos na Home Page.
 
-    Responsável: Rodrigo.
+    Responsável: Rodrigo
 
   <p>Visualizar a parte de contato e preencher os campos requisitados:</p>
   <img src="img/RTcontato.jpeg">
