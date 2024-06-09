@@ -176,3 +176,37 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <td></td>
  </tr>
 </table>
+
+<table>
+ <tr>
+  <th>Caso de teste</th>
+  <th>Requisitos associados</th>
+  <th>Objetivo do teste</th>
+  <th>Passos</th>
+  <th>Critérios de êxito</th>
+  <th>Responsável</th>
+ </tr>
+ <tr>
+  <td>CT-06: Verificar o funcionamento dos links da página Home</td>
+  <td>
+   <ul>
+    <li>RF-002: O site deve permitir ao usuário fazer o login da sua conta cadastrada.</li>
+   <li>RF-004: O site deve permitir que doadores físicos encontrem pontos de coleta de alimentos.</li>
+   <li>RF-005: O site deve permitir criar campanhas sazonais de doação de alimentos.</li>
+    <li>RF-007: O site deve permitir que o usuário tenha acesso aos produtos que são aceitos para doação.</li>
+    <li>RF-008: O site deve permitir ver as campanhas que estão ativas.</li>
+   </ul>
+  </td>
+  <td>Verificar se os links da página Home estão encaminhando para as respectivas páginas corretamente</td>
+  <td>
+   <ol>
+    <li>Acessar o navegador.</li>
+    <li>Informar o endereço do site.</li>
+    <li>Visualizar a página Home.</li>
+    <li>Clicar nos links da página Home.</li>
+   </ol>
+   </td>
+  <td>Todos os links da página Home devem encaminhar os usuários para as páginas descritas.</td>
+  <td>Fabio</td>
+ </tr>
+</table>
