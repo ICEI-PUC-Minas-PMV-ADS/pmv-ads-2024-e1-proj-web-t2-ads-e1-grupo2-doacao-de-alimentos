@@ -115,16 +115,15 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <th>Responsável</th>
  </tr>
  <tr>
-  <td>CT-04: Verificar o funcionamento da parte de login e cadastro do site</td>
+  <td>CT-04: Verificar o funcionamento da parte de login do site</td>
   <td>
    <ul>
-    <li>RF-01: A aplicação deve permitir ao usuário cadastrar uma conta.</li>
     <li>RF-02: A aplicação deve permitir ao usuário fazer o login da sua conta cadastrada.</li>
     <li>RF-09: A aplicação deve permitir ao usuário verificar as informações registradas no cadastro, após fazer seu login.</li>
     <li>RF-10: O sistema deve fornecer feedback claro para ações do usuário, como confirmações de formulários e mensagens de erro.</li>
    </ul>
   </td>
-  <td>Verificar se a parte de login e cadastro está correta, registrando corretamente tanto pela aba de pessoa física, quanto a aba de pessoa jurídica. Verificar também se o sistema fornece um feedback após o registro do usuário, confirmando o cadastro</td>
+  <td>Verificar se a parte de login está correta, checando se o sistema fornece um feedback confirmando o cadastro e, posteriormente, mostrando os dados cadastrados do usuário.</td>
   <td>
    <ol>
     <li>Acessar o navegador.</li>
@@ -133,16 +132,47 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
     <li>Ir para a parte de login.</li>
     <li>Preencher os dados requisitados para login</li>
     <li>Clicar em 'Enviar'.</li>
-    <li>Verificar se recebe um feedback de cadastro feito com sucesso</li>
-    <li>Em caso de cadastro, clicar na opção 'Cadastro' na tela de login</li>
-    <li>Selecionar a opção 'Pessoa Física' ou 'Pessoa Jurídica'</li>
-    <li>Preencher os dados requisitados para o cadastro (Pessoa Física ou Pessoa Jurídica)</li>
-    <li>Clicar  em 'Enviar'</li>
-    <li>Verificar se recebe um feedback de cadastro feito com sucesso</li>
+    <li>Verificar se recebe um feedback de login feito com sucesso</li>
+    <li>Após o login, verificar se as informações de cadastro são fornecidas para o usuário</li>
    </ol>
    </td>
-  <td>O usuário deve fazer o login. Em caso de ainda não possuir um login, deverá fazer seu cadastro, preenchendo informações com base no cadastro de Pessoa Física ou Pessoa Jurídica.</td>
+  <td>O usuário deverá fazer o login, recebendo um feedback mostrando se o login foi bem ou mal sucedido. Após a confirmação de login, os dados previamente cadastrados deverão aparecer para o usuário. </td>
   <td></td>
  </tr>
 </table>
 
+<table>
+ <tr>
+  <th>Caso de teste</th>
+  <th>Requisitos associados</th>
+  <th>Objetivo do teste</th>
+  <th>Passos</th>
+  <th>Critérios de êxito</th>
+  <th>Responsável</th>
+ </tr>
+ <tr>
+  <td>CT-05: Verificar o funcionamento da parte de cadastro do site</td>
+  <td>
+   <ul>
+    <li>RF-01: A aplicação deve permitir ao usuário cadastrar uma conta.</li>
+    <li>RF-10: O sistema deve fornecer feedback claro para ações do usuário, como confirmações de formulários e mensagens de erro.</li>
+   </ul>
+  </td>
+  <td>Verificar se a parte de cadastro está correta, registrando corretamente tanto pela aba de pessoa física, quanto a aba de pessoa jurídica. Verificar também se o sistema fornece um feedback após o registro do usuário, confirmando o cadastro</td>
+  <td>
+   <ol>
+    <li>Acessar o navegador.</li>
+    <li>Informar o endereço do site.</li>
+    <li>Visualizar a página Home.</li>
+    <li>Ir para a parte de login.</li>
+    <li>Clicar na opção 'Cadastro' na tela de login</li>
+    <li>Selecionar a opção 'Pessoa Física' ou 'Pessoa Jurídica'</li>
+    <li>Preencher os dados requisitados para o cadastro (Pessoa Física ou Pessoa Jurídica)</li>
+    <li>Clicar em 'Enviar'</li>
+    <li>Verificar se recebe um feedback de cadastro feito com sucesso</li>
+   </ol>
+   </td>
+  <td>O usuário deve fazer o cadastro, preenchendo informações solicitadas com base no cadastro de Pessoa Física ou Pessoa Jurídica.</td>
+  <td></td>
+ </tr>
+</table>
