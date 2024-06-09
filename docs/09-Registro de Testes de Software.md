@@ -2,11 +2,30 @@
 
 <span style="color:red">Pré-requisitos: <a href="3-Projeto de Interface.md"> Projeto de Interface</a></span>, <a href="8-Plano de Testes de Software.md"> Plano de Testes de Software</a>
 
-Relatório com as evidências dos testes de software realizados no sistema pela equipe, baseado em um plano de testes pré-definido.
+Os testes funcionais realizados na aplicação web são descritos a seguir.
 
-## Avaliação
+<ol>
+  <hr>
+  <li> CT-03: Verificar o funcionamento da parte de criação de campanhas.
 
-Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identificados na solução. Comente como o grupo pretende atacar esses pontos nas próximas iterações. Apresente as falhas detectadas e as melhorias geradas a partir dos resultados obtidos nos testes.
+  Responsável: Danilo
 
-> **Links Úteis**:
-> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
+ <p>Visualizar as campanhas ativas:</p>
+<img src="img/campanha-1.png">
+
+ <p>Preencher as informações para cadastro de campanha</p>
+ <img src="img/campanha-2.png">
+
+ <p>Retornar para a página de campanhas e verificar se a campanha criada foi adicionada</p>
+ <img src="img/campanha-3.png">
+
+ <p>Colocando o cursor do mouse em cima da camoanha, é possível ver as ifnromações principais da campanha</p>
+ <img src="img/campanha-4.png">
+ </hr>
+
+
+
+
+</li>
+
+</ol>
