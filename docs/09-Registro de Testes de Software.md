@@ -17,10 +17,10 @@ Os testes funcionais realizados na aplicação web são descritos a seguir.
  <img src="img/campanha-2.png">
 
  <p>Retornar para a página de campanhas e verificar se a campanha criada foi adicionada:</p>
- <img src="img/campanha-3.png">
+ <img src="img/campanha-3(1).png">
 
  <p>Colocando o cursor do mouse em cima da camoanha, é possível ver as ifnromações principais da campanha:</p>
- <img src="img/campanha-4.png">
+ <img src="img/campanha-4(1).png">
  </hr>
 
 
