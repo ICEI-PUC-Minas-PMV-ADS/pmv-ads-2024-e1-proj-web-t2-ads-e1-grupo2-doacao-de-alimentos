@@ -8,7 +8,7 @@ Os testes funcionais realizados na aplicação web são descritos a seguir.
   <hr>
   <li> CT-03: Verificar o funcionamento da parte de criação de campanhas.
 
-  Responsável: Danilo
+    Responsável: Danilo
 
  <p>Visualizar as campanhas ativas:</p>
 <img src="img/campanha-1.png">
@@ -19,7 +19,7 @@ Os testes funcionais realizados na aplicação web são descritos a seguir.
  <p>Retornar para a página de campanhas e verificar se a campanha criada foi adicionada:</p>
  <img src="img/campanha-3(1).png">
 
- <p>Colocando o cursor do mouse em cima da camoanha, é possível ver as ifnromações principais da campanha:</p>
+ <p>Colocando o cursor do mouse em cima da campanha, é possível ver as ifnromações principais da campanha:</p>
  <img src="img/campanha-4(1).png">
  
  <hr>
@@ -28,9 +28,21 @@ Os testes funcionais realizados na aplicação web são descritos a seguir.
 
  <li> CT-01: Verificar o funcionamento da parte de produtos na Home Page.
 
-  Responsável: Rodrigo.
+    Responsável: Rodrigo
 
   https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t2-ads-e1-grupo2-doacao-de-alimentos/assets/123666533/1f48e720-6d6c-4a6c-b2e8-8cde3775f8a8
+
+  </li>
+
+   <li> CT-02: Verificar o funcionamento da parte de contatos na Home Page.
+
+    Responsável: Rodrigo
+
+  <p>Visualizar a parte de contato e preencher os campos requisitados:</p>
+  <img src="img/RTcontato.jpeg">
+
+ <p>Receber o FeedBack do contato e do preenchimento dos campos:</p>
+ <img src="img/RTcontato2.jpeg">
 
   </li>
 
