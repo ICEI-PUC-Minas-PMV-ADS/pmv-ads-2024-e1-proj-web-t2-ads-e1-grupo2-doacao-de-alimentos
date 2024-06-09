@@ -30,7 +30,13 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
-
+  <style>
+    .img-tamanho-fixado {
+      width: 100%; /* Define a largura máxima da imagem como 100% do seu contêiner */
+      height: 200px; /* Define uma altura fixa para todas as imagens */
+      object-fit: cover; /* Garante que a imagem cubra o espaço disponível sem perder suas proporções */
+    }
+  </style>
 </head>
 
 <body>
@@ -446,12 +452,11 @@
           <h2>Nosso Time</h2>
           <p>Conheça nossa equipes de Desenvolvedores </p>
         </div>
-
         <div class="row gy-4">
 
-          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="200">
-            <div class="member">
-              <img src="assets/img/team/cesarperfil.jpeg" class="img-fluid" alt="">
+          <div class="col-xl-3 col-md-6 col-sm-12 d-flex">
+            <div class="member aspect-ratio aspect-ratio-16x9">
+              <img src="assets/img/team/cesarperfil.jpeg" class="img-fluid img-tamanho-fixado" alt="">
               <h4>Cesar Ribeiro</h4>
               <span>Estudante de ADS</span>
               <span>PUC MINAS</span>
@@ -459,11 +464,11 @@
                 <a href=""><i class="bi bi-linkedin"></i></a>
               </div>
             </div>
-          </div><!-- End Team Member -->
-
-          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="300">
-            <div class="member">
-              <img src="assets/img/team/rodrigoperfil.jpeg" class="img-fluid" alt="">
+          </div>
+        
+          <div class="col-xl-3 col-md-6 col-sm-12 d-flex">
+            <div class="member aspect-ratio aspect-ratio-16x9">
+              <img src="assets/img/team/rodrigoperfil.jpeg" class="img-fluid img-tamanho-fixado" alt="">
               <h4>Rodrigo Abreu</h4>
               <span>Estudante de ADS</span>
               <span>PUC MINAS</span>
@@ -471,11 +476,11 @@
                 <a href=""><i class="bi bi-linkedin"></i></a>
               </div>
             </div>
-          </div><!-- End Team Member -->
-
-          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="300">
-            <div class="member">
-              <img src="assets/img/team/Daniloperfil.jpeg" class="img-fluid" alt="">
+          </div>
+        
+          <div class="col-xl-3 col-md-6 col-sm-12 d-flex">
+            <div class="member aspect-ratio aspect-ratio-16x9">
+              <img src="assets/img/team/Daniloperfil.jpeg" class="img-fluid img-tamanho-fixado" alt="">
               <h4>Danilo Silva</h4>
               <span>Estudante de ADS</span>
               <span>PUC MINAS</span>
@@ -483,11 +488,11 @@
                 <a href=""><i class="bi bi-linkedin"></i></a>
               </div>
             </div>
-          </div><!-- End Team Member -->
-
-          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="400">
-            <div class="member">
-              <img src="assets/img/team/fabioperfil.jpeg" class="img-fluid" alt="">
+          </div>
+        
+          <div class="col-xl-3 col-md-6 col-sm-12 d-flex">
+            <div class="member aspect-ratio aspect-ratio-16x9">
+              <img src="assets/img/team/fabioperfil.jpeg" class="img-fluid img-tamanho-fixado" alt="">
               <h4>Fábio Luiz </h4>
               <span>Estudante de ADS</span>
               <span>PUC MINAS</span>
@@ -495,32 +500,39 @@
                 <a href=""><i class="bi bi-linkedin"></i></a>
               </div>
             </div>
-          </div><!-- End Team Member -->
+          </div>
+        
+          <div class="row gy-4">
 
-          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100">
-            <div class="member">
-              <img src="assets/img/team/laiseperfil.jpg" class="img-fluid" alt="fotodeperfil">
-              <h4>Laise Farias</h4>
-              <span>Estudante de ADS</span>
-              <span>PUC MINAS</span>
-              <div class="social">
-                <a href=""><i class="bi bi-linkedin"></i></a>
+            <div class="d-flex justify-content-center">  <div class="col-xl-3 col-md-6 col-sm-12 d-flex">
+                <div class="member aspect-ratio aspect-ratio-16x9">
+                  <img src="assets/img/team/laiseperfil.jpg" class="img-fluid img-tamanho-fixado" alt="fotodeperfil">
+                  <h4>Laise Farias</h4>
+                  <span>Estudante de ADS</span>
+                  <span>PUC MINAS</span>
+                  <div class="social">
+                    <a href=""><i class="bi bi-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+          
+              <div class="col-xl-3 col-md-6 col-sm-12 d-flex">
+                <div class="member aspect-ratio aspect-ratio-16x9">
+                  <img src="assets/img/team/italoperfil.jpeg" class="img-fluid img-tamanho-fixado" alt="fotodeperfil">
+                  <h4>Italo</h4>
+                  <span>Estudante de ADS</span>
+                  <span>PUC MINAS</span>
+                  <div class="social">
+                    <a href=""><i class="bi bi-linkedin"></i></a>
+                  </div>
+                </div>
               </div>
             </div>
-          </div><!-- End Team Member -->
-          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100">
-            <div class="member">
-<img src="assets/img/team/italoperfil.jpeg" class="img-fluid" alt="fotodeperfil">
-<h4>Italo</h4>
-              <span>Estudante de ADS</span>
-              <span>PUC MINAS</span>
-              <div class="social">
-                <a href=""><i class="bi bi-linkedin"></i></a>
-              </div>
             </div>
-          </div><!-- End Team Member -->
-
+          
+        
         </div>
+        
 
       </div>
     </section><!-- End Our Team Section -->
