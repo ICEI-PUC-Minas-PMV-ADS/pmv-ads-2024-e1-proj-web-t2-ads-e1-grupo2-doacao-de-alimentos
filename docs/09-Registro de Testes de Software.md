@@ -13,13 +13,13 @@ Os testes funcionais realizados na aplicação web são descritos a seguir.
  <p>Visualizar as campanhas ativas:</p>
 <img src="img/campanha-1.png">
 
- <p>Preencher as informações para cadastro de campanha</p>
+ <p>Preencher as informações para cadastro de campanha:</p>
  <img src="img/campanha-2.png">
 
- <p>Retornar para a página de campanhas e verificar se a campanha criada foi adicionada</p>
+ <p>Retornar para a página de campanhas e verificar se a campanha criada foi adicionada:</p>
  <img src="img/campanha-3.png">
 
- <p>Colocando o cursor do mouse em cima da camoanha, é possível ver as ifnromações principais da campanha</p>
+ <p>Colocando o cursor do mouse em cima da camoanha, é possível ver as ifnromações principais da campanha:</p>
  <img src="img/campanha-4.png">
  </hr>
 
