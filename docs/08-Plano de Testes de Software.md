@@ -173,7 +173,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
    </ol>
    </td>
   <td>O usuário deve fazer o cadastro, preenchendo informações solicitadas com base no cadastro de Pessoa Física ou Pessoa Jurídica.</td>
-  <td></td>
+  <td>César</td>
  </tr>
 </table>
 
