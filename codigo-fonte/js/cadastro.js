@@ -183,6 +183,7 @@ function save(_type){
         var log_pj = document.getElementById('logradouro-pj').value;
         var num_pj = document.getElementById('numero-pj').value;
         var comp_pj = document.getElementById('completo-end-pj').value;
+        var doacao = document.getElementById('lista-doacao').value;
 
         if(nome_pj.length !== 0 || email_pj.length !== 0 || cep_pj.length !== 0){
 
@@ -196,14 +197,15 @@ function save(_type){
                 "bairro": bairro_pj,
                 "logradouro": log_pj,
                 "numero_residencia": num_pj,
-                "complemento": comp_pj
+                "complemento": comp_pj,
+                "lista-doacao": doacao
             };
         
             createLocalStorage(cookie_value);
             redirectHome();
         }
         else{
-            alert("Preencha os campos obrigatórios (nome, email e cep)");
+            alert("Preencha os campos obrigatórios (nome fantasia, email e cep)");
         }
     }
 }
