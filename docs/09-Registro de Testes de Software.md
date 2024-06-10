@@ -51,6 +51,15 @@ Os testes funcionais realizados na aplicação web são descritos a seguir.
 
 <hr>
 
+<li> CT-06: Verificar o funcionamento dos links da página Home.
+
+  Responsável: Fabio.
+
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t2-ads-e1-grupo2-doacao-de-alimentos/assets/164438260/8fd49cec-e796-4ac2-8b05-45150fe38a24
+
+  </li>
+  <hr>
+
 
 
 </li>
