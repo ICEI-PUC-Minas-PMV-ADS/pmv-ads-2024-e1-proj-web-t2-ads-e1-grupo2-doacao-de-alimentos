@@ -15,8 +15,8 @@ $(document).ready(function(){
 });
 
 
-function findAddr(){
-    let addr = document.getElementById('cep-pf')
+function findAddr(field){
+    let addr = document.getElementById(field)
     if(addr.value.length !== 0){
         var apiUrl = 'https://viacep.com.br/ws/' + addr.value +'/json/';
 
@@ -32,7 +32,7 @@ function findAddr(){
         })
         .then(data => {
             // Manipula os dados recebidos da API
-            loadAddrResult(data);
+            loadAddrResult(data, field);
         })
         .catch(error => {
             // Captura e exibe erros
@@ -43,12 +43,19 @@ function findAddr(){
 }
 
 
-function loadAddrResult(data) {
-    // Exibe os dados recebidos da API de CEP
-    document.getElementById('estado-pf').value = data['uf'];
-    document.getElementById('cidade-pf').value = data['localidade'];
-    document.getElementById('bairro-pf').value = data['bairro'];
-    document.getElementById('logradouro-pf').value = data['logradouro'];
+function loadAddrResult(data, _type) {
+    if(_type == 'pf'){
+        document.getElementById('estado-pf').value = data['uf'];
+        document.getElementById('cidade-pf').value = data['localidade'];
+        document.getElementById('bairro-pf').value = data['bairro'];
+        document.getElementById('logradouro-pf').value = data['logradouro'];
+    }
+    else{
+        document.getElementById('estado-pj').value = data['uf'];
+        document.getElementById('cidade-pj').value = data['localidade'];
+        document.getElementById('bairro-pj').value = data['bairro'];
+        document.getElementById('logradouro-pj').value = data['logradouro'];
+    }
 }
 
 function validateCPF() {
@@ -214,6 +221,10 @@ function createLocalStorage(json) {
     // Convertendo o JSON para uma string
     var jsonStr = JSON.stringify(json);    
     localStorage.setItem(json['email'], jsonStr);
+}
+
+function redirectHome(){
+    window.location.replace("../home/index.html");
 }
 
 function validarCNPJ() {

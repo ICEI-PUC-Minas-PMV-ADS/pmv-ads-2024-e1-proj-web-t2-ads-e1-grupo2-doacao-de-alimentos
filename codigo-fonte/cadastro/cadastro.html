@@ -101,7 +101,7 @@
                     </div>
                     <div class="form-group">
                         <label for="cep-pf">CEP:</label>
-                        <input type="number" class="form-control" id="cep-pf" name="cep-pf" onblur="findAddr()" required>
+                        <input type="number" class="form-control" id="cep-pf" name="cep-pf" onblur="findAddr('cep-pf')" required>
                     </div>
                     <div class="form-group">
                       <label for="estado-pf">Estado:</label>
@@ -117,7 +117,7 @@
                     </div>
                     <div class="form-group">
                         <label for="senha">Senha:</label>
-                        <input type="password" class="form-control" id="senha" name="senha" required>
+                        <input type="password" class="form-control" id="senha-pf" name="senha" required>
                     </div>
                 </div>
                 <div class="col-md-6">
@@ -147,7 +147,7 @@
                     </div>
                     <div class="form-group">
                         <label for="confirmar-senha">Confirmar Senha:</label>
-                        <input type="password" class="form-control" id="confirmar-senha" name="confirmar-senha" onblur="confirmPassword('senha', 'confirmar-senha')">
+                        <input type="password" class="form-control" id="confirmar-senha" name="confirmar-senha" onblur="confirmPassword('senha-pf', 'confirmar-senha')">
                     </div>
                 </div>
             </div>            
@@ -167,7 +167,7 @@
                   </div>
                   <div class="form-group">
                       <label for="cep-pj">CEP:</label>
-                      <input type="number" class="form-control" id="cep-pj" name="cep-pj" onblur="findAddr()" required>
+                      <input type="number" class="form-control" id="cep-pj" name="cep-pj" onblur="findAddr('cep-pj')" required>
                   </div>
                   <div class="form-group">
                     <label for="estado-pj">Estado:</label>
@@ -183,7 +183,7 @@
                   </div>
                   <div class="form-group">
                       <label for="senha">Senha:</label>
-                      <input type="password" class="form-control" id="senha" name="senha" required>
+                      <input type="password" class="form-control" id="senha-pj" name="senha" required>
                   </div>
               </div>
               <div class="col-md-6">
@@ -213,7 +213,7 @@
                   </div>
                   <div class="form-group">
                       <label for="confirmar-senha-pj">Confirmar Senha:</label>
-                      <input type="password" class="form-control" id="confirmar-senha-pj" name="confirmar-senha-pj" onblur="confirmPassword('senha', 'confirmar-senha-pj')">
+                      <input type="password" class="form-control" id="confirmar-senha-pj" name="confirmar-senha-pj" onblur="confirmPassword('senha-pj', 'confirmar-senha-pj')">
                   </div>
               </div>
               <div class="form-group">
