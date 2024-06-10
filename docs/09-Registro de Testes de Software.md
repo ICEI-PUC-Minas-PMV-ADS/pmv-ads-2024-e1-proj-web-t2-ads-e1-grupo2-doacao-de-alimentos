@@ -82,9 +82,25 @@ Pessoa jurídica
 <p>Após clicar em salvar, é enviado para a página principal e com a opção de salvar a senha no dispositivo:</p>
 <img src="img/teste-cadastro-enviar.png">
 
-
-
-
 </li>
+<hr>
+
+<li>CT-04: Verificar o funcionamento da parte de login do site.
+
+  Responsável: César
+
+  <p>Visualizar a página de login:</p>
+  <img src="img/teste-login-login1.png">
+
+  <p>Preencher os dados requisitados para login:</p>
+  <img src="img/teste-login-dados.png">
+
+  <p>Após clicar em 'Login', o usuário se loga no site e recebe uma notificação de aviso que o login foi realizado com sucesso:</p>
+  <img src="img/teste-login-enviar.png">
+
+  </li>
+
+</ol>
+
 
 </ol>
