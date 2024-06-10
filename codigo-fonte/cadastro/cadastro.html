@@ -153,7 +153,7 @@
             </div>            
         </form>
         <br>
-        <button class="btn btn-success hidden" id="pf-save" onclick=save()>Salvar</button>
+        <button class="btn btn-success hidden" id="pf-save" onclick="save('pf')">Salvar</button>
         <form id="formInstitution" class="hidden">                
           <div class="row">
               <div class="col-md-6">
@@ -216,10 +216,15 @@
                       <input type="password" class="form-control" id="confirmar-senha-pj" name="confirmar-senha-pj" onblur="confirmPassword('senha', 'confirmar-senha-pj')">
                   </div>
               </div>
+              <br>
+              <div class="form-group">
+                <label for="lista-doacao">Lista de itens aceitos:</label>
+                <textarea class="form-control" id="lista-doacao" name="lista-doacao" rows="4" cols="50"></textarea>
+            </div>
           </div>            
       </form>
       <br>
-          <button class="btn btn-success hidden" id="pj-save" onclick=save()>Salvar</button>
+          <button class="btn btn-success hidden" id="pj-save" onclick="save('pj')">Salvar</button>
         </div>
     </div>
   </div>

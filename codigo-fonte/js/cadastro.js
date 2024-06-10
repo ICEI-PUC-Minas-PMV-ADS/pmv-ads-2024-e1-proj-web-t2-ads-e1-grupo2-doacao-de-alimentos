@@ -137,38 +137,74 @@ function compareFields(field1, field2){
     }
 }
 
-function save(){
-    var nome_pf = document.getElementById('nome-pf').value;
-    var cpf = document.getElementById('cpf').value;
-    var email_pf = document.getElementById('email-pf').value;
-    var cep_pf = document.getElementById('cep-pf').value;
-    var estado_pf = document.getElementById('estado-pf').value;
-    var cidade_pf = document.getElementById('cidade-pf').value;
-    var bairro_pf = document.getElementById('bairro-pf').value;
-    var log_pf = document.getElementById('logradouro-pf').value;
-    var num_pf = document.getElementById('numero-pf').value;
-    var comp_pf = document.getElementById('completo-end-pf').value;
+function save(_type){
+    if (_type == 'pf'){
+        var nome_pf = document.getElementById('nome-pf').value;
+        var cpf = document.getElementById('cpf').value;
+        var email_pf = document.getElementById('email-pf').value;
+        var cep_pf = document.getElementById('cep-pf').value;
+        var estado_pf = document.getElementById('estado-pf').value;
+        var cidade_pf = document.getElementById('cidade-pf').value;
+        var bairro_pf = document.getElementById('bairro-pf').value;
+        var log_pf = document.getElementById('logradouro-pf').value;
+        var num_pf = document.getElementById('numero-pf').value;
+        var comp_pf = document.getElementById('completo-end-pf').value;
 
-    if(nome_pf.length !== 0 || email_pf.length !== 0 || cep_pf.length !== 0){
+        if(nome_pf.length !== 0 || email_pf.length !== 0 || cep_pf.length !== 0){
 
-        var cookie_value = { 
-            "nome": nome_pf,
-            "cpf": cpf,
-            "email": email_pf,
-            "cep": cep_pf,
-            "estado": estado_pf,
-            "cidade": cidade_pf,
-            "bairro": bairro_pf,
-            "logradouro": log_pf,
-            "numero_residencia": num_pf,
-            "complemento": comp_pf
-        };
-    
-        createLocalStorage(cookie_value);
-        redirectHome();
+            var cookie_value = { 
+                "nome": nome_pf,
+                "cpf": cpf,
+                "email": email_pf,
+                "cep": cep_pf,
+                "estado": estado_pf,
+                "cidade": cidade_pf,
+                "bairro": bairro_pf,
+                "logradouro": log_pf,
+                "numero_residencia": num_pf,
+                "complemento": comp_pf
+            };
+        
+            createLocalStorage(cookie_value);
+            redirectHome();
+        }
+        else{
+            alert("Preencha os campos obrigatórios (nome, email e cep)");
+        }
     }
     else{
-        alert("Preencha os campos obrigatórios (nome, email e cep)");
+        var nome_pj = document.getElementById('nome-pj').value;
+        var cnpj = document.getElementById('cnpj').value;
+        var email_pj = document.getElementById('email-pj').value;
+        var cep_pj = document.getElementById('cep-pj').value;
+        var estado_pj = document.getElementById('estado-pj').value;
+        var cidade_pj = document.getElementById('cidade-pj').value;
+        var bairro_pj = document.getElementById('bairro-pj').value;
+        var log_pj = document.getElementById('logradouro-pj').value;
+        var num_pj = document.getElementById('numero-pj').value;
+        var comp_pj = document.getElementById('completo-end-pj').value;
+
+        if(nome_pj.length !== 0 || email_pj.length !== 0 || cep_pj.length !== 0){
+
+            var cookie_value = { 
+                "nome_fantasia": nome_pj,
+                "cnpj": cnpj,
+                "email": email_pj,
+                "cep": cep_pj,
+                "estado": estado_pj,
+                "cidade": cidade_pj,
+                "bairro": bairro_pj,
+                "logradouro": log_pj,
+                "numero_residencia": num_pj,
+                "complemento": comp_pj
+            };
+        
+            createLocalStorage(cookie_value);
+            redirectHome();
+        }
+        else{
+            alert("Preencha os campos obrigatórios (nome, email e cep)");
+        }
     }
 }
 
