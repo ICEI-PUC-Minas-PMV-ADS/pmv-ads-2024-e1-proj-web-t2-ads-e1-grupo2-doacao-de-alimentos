@@ -60,6 +60,29 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t2-ads-e1-gru
   </li>
   <hr>
 
+  <li> CT-05: Verificar o funcionamento da parte de cadastro do site.
+
+  Responsável: César
+
+  <p>Visualizar a página de login e clicar na opção "Cadastro":</p>
+  <img src="img/teste-cadastro-login.png">
+
+  <p>Selecionar Pessoa física ou Pessoa Jurídica:</p>
+  Pessoa física
+  <img src="img/teste-cadastro-pessoafisica.png">
+  Pessoa jurídica
+  <img src="img/teste-cadastro-pessoajuridica.png">
+
+<p>Preencher os dados requisitados para o cadastro (Pessoa Física ou Pessoa Jurídica)</p>
+Pessoa física
+<img src="img/teste-cadastro-dadospessoafisica.png">
+Pessoa jurídica
+<img src="img/teste-cadastro-dadospessoajuridica.png">
+
+<p>Após clicar em salvar, é enviado para a página principal e com a opção de salvar a senha no dispositivo:</p>
+<img src="img/teste-cadastro-enviar.png">
+
+
 
 
 </li>
