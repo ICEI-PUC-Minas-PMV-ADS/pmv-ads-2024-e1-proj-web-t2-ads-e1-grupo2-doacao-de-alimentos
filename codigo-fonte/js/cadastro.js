@@ -3,16 +3,20 @@ $(document).ready(function(){
         if($(this).val() == "pf"){
             $('#formPhysicsPerson').removeClass('hidden');
             $('#formInstitution').addClass('hidden');
+            $('#pj-save').addClass('hidden');
+            $('#pf-save').removeClass('hidden')
         } else {
             $('#formPhysicsPerson').addClass('hidden');
             $('#formInstitution').removeClass('hidden');
+            $('#pj-save').removeClass('hidden')
+            $('#pf-save').addClass('hidden');
         }
     });
 });
 
 
-function findAddr(){
-    let addr = document.getElementById('cep-pf')
+function findAddr(field){
+    let addr = document.getElementById(field)
     if(addr.value.length !== 0){
         var apiUrl = 'https://viacep.com.br/ws/' + addr.value +'/json/';
 
@@ -28,7 +32,7 @@ function findAddr(){
         })
         .then(data => {
             // Manipula os dados recebidos da API
-            loadAddrResult(data);
+            loadAddrResult(data, field);
         })
         .catch(error => {
             // Captura e exibe erros
@@ -39,12 +43,19 @@ function findAddr(){
 }
 
 
-function loadAddrResult(data) {
-    // Exibe os dados recebidos da API de CEP
-    document.getElementById('estado-pf').value = data['uf'];
-    document.getElementById('cidade-pf').value = data['localidade'];
-    document.getElementById('bairro-pf').value = data['bairro'];
-    document.getElementById('logradouro-pf').value = data['logradouro'];
+function loadAddrResult(data, _type) {
+    if(_type == 'pf'){
+        document.getElementById('estado-pf').value = data['uf'];
+        document.getElementById('cidade-pf').value = data['localidade'];
+        document.getElementById('bairro-pf').value = data['bairro'];
+        document.getElementById('logradouro-pf').value = data['logradouro'];
+    }
+    else{
+        document.getElementById('estado-pj').value = data['uf'];
+        document.getElementById('cidade-pj').value = data['localidade'];
+        document.getElementById('bairro-pj').value = data['bairro'];
+        document.getElementById('logradouro-pj').value = data['logradouro'];
+    }
 }
 
 function validateCPF() {
@@ -92,15 +103,15 @@ function validateCPF() {
     validateBox(true, '#cpf');
 }
 
-function validateEmail() {
+function validateEmail(field) {
     // Expressão regular para validar o formato do e-mail
-    let email = document.getElementById('email-pf')
+    let email = document.getElementById(field)
     const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     if(regex.test(email.value)){
-        validateBox(true, '#email-pf')
+        validateBox(true, '#'+ field)
     }
     else{
-        validateBox(false, '#email-pf')
+        validateBox(false, '#'+ field)
     }
 
 }
@@ -133,38 +144,76 @@ function compareFields(field1, field2){
     }
 }
 
-function save(){
-    var nome_pf = document.getElementById('nome-pf').value;
-    var cpf = document.getElementById('cpf').value;
-    var email_pf = document.getElementById('email-pf').value;
-    var cep_pf = document.getElementById('cep-pf').value;
-    var estado_pf = document.getElementById('estado-pf').value;
-    var cidade_pf = document.getElementById('cidade-pf').value;
-    var bairro_pf = document.getElementById('bairro-pf').value;
-    var log_pf = document.getElementById('logradouro-pf').value;
-    var num_pf = document.getElementById('numero-pf').value;
-    var comp_pf = document.getElementById('completo-end-pf').value;
+function save(_type){
+    if (_type == 'pf'){
+        var nome_pf = document.getElementById('nome-pf').value;
+        var cpf = document.getElementById('cpf').value;
+        var email_pf = document.getElementById('email-pf').value;
+        var cep_pf = document.getElementById('cep-pf').value;
+        var estado_pf = document.getElementById('estado-pf').value;
+        var cidade_pf = document.getElementById('cidade-pf').value;
+        var bairro_pf = document.getElementById('bairro-pf').value;
+        var log_pf = document.getElementById('logradouro-pf').value;
+        var num_pf = document.getElementById('numero-pf').value;
+        var comp_pf = document.getElementById('completo-end-pf').value;
 
-    if(nome_pf.length !== 0 || email_pf.length !== 0 || cep_pf.length !== 0){
+        if(nome_pf.length !== 0 || email_pf.length !== 0 || cep_pf.length !== 0){
 
-        var cookie_value = { 
-            "nome": nome_pf,
-            "cpf": cpf,
-            "email": email_pf,
-            "cep": cep_pf,
-            "estado": estado_pf,
-            "cidade": cidade_pf,
-            "bairro": bairro_pf,
-            "logradouro": log_pf,
-            "numero_residencia": num_pf,
-            "complemento": comp_pf
-        };
-    
-        createLocalStorage(cookie_value);
-        redirectHome();
+            var cookie_value = { 
+                "nome": nome_pf,
+                "cpf": cpf,
+                "email": email_pf,
+                "cep": cep_pf,
+                "estado": estado_pf,
+                "cidade": cidade_pf,
+                "bairro": bairro_pf,
+                "logradouro": log_pf,
+                "numero_residencia": num_pf,
+                "complemento": comp_pf
+            };
+        
+            createLocalStorage(cookie_value);
+            redirectHome();
+        }
+        else{
+            alert("Preencha os campos obrigatórios (nome, email e cep)");
+        }
     }
     else{
-        alert("Preencha os campos obrigatórios (nome, email e cep)");
+        var nome_pj = document.getElementById('nome-pj').value;
+        var cnpj = document.getElementById('cnpj').value;
+        var email_pj = document.getElementById('email-pj').value;
+        var cep_pj = document.getElementById('cep-pj').value;
+        var estado_pj = document.getElementById('estado-pj').value;
+        var cidade_pj = document.getElementById('cidade-pj').value;
+        var bairro_pj = document.getElementById('bairro-pj').value;
+        var log_pj = document.getElementById('logradouro-pj').value;
+        var num_pj = document.getElementById('numero-pj').value;
+        var comp_pj = document.getElementById('completo-end-pj').value;
+        var doacao = document.getElementById('lista-doacao').value;
+
+        if(nome_pj.length !== 0 || email_pj.length !== 0 || cep_pj.length !== 0){
+
+            var cookie_value = { 
+                "nome_fantasia": nome_pj,
+                "cnpj": cnpj,
+                "email": email_pj,
+                "cep": cep_pj,
+                "estado": estado_pj,
+                "cidade": cidade_pj,
+                "bairro": bairro_pj,
+                "logradouro": log_pj,
+                "numero_residencia": num_pj,
+                "complemento": comp_pj,
+                "lista-doacao": doacao
+            };
+        
+            createLocalStorage(cookie_value);
+            redirectHome();
+        }
+        else{
+            alert("Preencha os campos obrigatórios (nome fantasia, email e cep)");
+        }
     }
 }
 
@@ -172,4 +221,71 @@ function createLocalStorage(json) {
     // Convertendo o JSON para uma string
     var jsonStr = JSON.stringify(json);    
     localStorage.setItem(json['email'], jsonStr);
+}
+
+function redirectHome(){
+    window.location.replace("../home/index.html");
+}
+
+function validarCNPJ() {
+    let cnpj = document.getElementById('cnpj')
+ 
+    cnpj = cnpj.value.replace(/[^\d]+/g,'');
+     
+    if (cnpj.length != 14){
+        validateBox(false, '#cnpj');
+        return;
+    }
+        
+ 
+    // Elimina CNPJs invalidos conhecidos
+    if (cnpj == "00000000000000" || 
+        cnpj == "11111111111111" || 
+        cnpj == "22222222222222" || 
+        cnpj == "33333333333333" || 
+        cnpj == "44444444444444" || 
+        cnpj == "55555555555555" || 
+        cnpj == "66666666666666" || 
+        cnpj == "77777777777777" || 
+        cnpj == "88888888888888" || 
+        cnpj == "99999999999999"){
+
+        validateBox(false, '#cnpj');
+        return;
+    }
+         
+    // Valida DVs
+    tamanho = cnpj.length - 2
+    numeros = cnpj.substring(0,tamanho);
+    digitos = cnpj.substring(tamanho);
+    soma = 0;
+    pos = tamanho - 7;
+    for (i = tamanho; i >= 1; i--) {
+      soma += numeros.charAt(tamanho - i) * pos--;
+      if (pos < 2)
+            pos = 9;
+    }
+    resultado = soma % 11 < 2 ? 0 : 11 - soma % 11;
+    if (resultado != digitos.charAt(0)){
+        validateBox(false, '#cnpj');
+        return;
+    }
+         
+    tamanho = tamanho + 1;
+    numeros = cnpj.substring(0,tamanho);
+    soma = 0;
+    pos = tamanho - 7;
+    for (i = tamanho; i >= 1; i--) {
+      soma += numeros.charAt(tamanho - i) * pos--;
+      if (pos < 2)
+            pos = 9;
+    }
+    resultado = soma % 11 < 2 ? 0 : 11 - soma % 11;
+    if (resultado != digitos.charAt(1)){
+        validateBox(false, '#cnpj');
+        return;
+    }
+    
+    validateBox(true, '#cnpj');
+    
 }
