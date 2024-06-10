@@ -3,9 +3,13 @@ $(document).ready(function(){
         if($(this).val() == "pf"){
             $('#formPhysicsPerson').removeClass('hidden');
             $('#formInstitution').addClass('hidden');
+            $('#pj-save').addClass('hidden');
+            $('#pf-save').removeClass('hidden')
         } else {
             $('#formPhysicsPerson').addClass('hidden');
             $('#formInstitution').removeClass('hidden');
+            $('#pj-save').removeClass('hidden')
+            $('#pf-save').addClass('hidden');
         }
     });
 });
@@ -92,15 +96,15 @@ function validateCPF() {
     validateBox(true, '#cpf');
 }
 
-function validateEmail() {
+function validateEmail(field) {
     // Expressão regular para validar o formato do e-mail
-    let email = document.getElementById('email-pf')
+    let email = document.getElementById(field)
     const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     if(regex.test(email.value)){
-        validateBox(true, '#email-pf')
+        validateBox(true, '#'+ field)
     }
     else{
-        validateBox(false, '#email-pf')
+        validateBox(false, '#'+ field)
     }
 
 }
@@ -172,4 +176,67 @@ function createLocalStorage(json) {
     // Convertendo o JSON para uma string
     var jsonStr = JSON.stringify(json);    
     localStorage.setItem(json['email'], jsonStr);
+}
+
+function validarCNPJ() {
+    let cnpj = document.getElementById('cnpj')
+ 
+    cnpj = cnpj.value.replace(/[^\d]+/g,'');
+     
+    if (cnpj.length != 14){
+        validateBox(false, '#cnpj');
+        return;
+    }
+        
+ 
+    // Elimina CNPJs invalidos conhecidos
+    if (cnpj == "00000000000000" || 
+        cnpj == "11111111111111" || 
+        cnpj == "22222222222222" || 
+        cnpj == "33333333333333" || 
+        cnpj == "44444444444444" || 
+        cnpj == "55555555555555" || 
+        cnpj == "66666666666666" || 
+        cnpj == "77777777777777" || 
+        cnpj == "88888888888888" || 
+        cnpj == "99999999999999"){
+
+        validateBox(false, '#cnpj');
+        return;
+    }
+         
+    // Valida DVs
+    tamanho = cnpj.length - 2
+    numeros = cnpj.substring(0,tamanho);
+    digitos = cnpj.substring(tamanho);
+    soma = 0;
+    pos = tamanho - 7;
+    for (i = tamanho; i >= 1; i--) {
+      soma += numeros.charAt(tamanho - i) * pos--;
+      if (pos < 2)
+            pos = 9;
+    }
+    resultado = soma % 11 < 2 ? 0 : 11 - soma % 11;
+    if (resultado != digitos.charAt(0)){
+        validateBox(false, '#cnpj');
+        return;
+    }
+         
+    tamanho = tamanho + 1;
+    numeros = cnpj.substring(0,tamanho);
+    soma = 0;
+    pos = tamanho - 7;
+    for (i = tamanho; i >= 1; i--) {
+      soma += numeros.charAt(tamanho - i) * pos--;
+      if (pos < 2)
+            pos = 9;
+    }
+    resultado = soma % 11 < 2 ? 0 : 11 - soma % 11;
+    if (resultado != digitos.charAt(1)){
+        validateBox(false, '#cnpj');
+        return;
+    }
+    
+    validateBox(true, '#cnpj');
+    
 }

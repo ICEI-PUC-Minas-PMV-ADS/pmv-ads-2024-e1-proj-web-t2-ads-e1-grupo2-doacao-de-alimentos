@@ -93,15 +93,15 @@
                 <div class="col-md-6">
                     <div class="form-group">
                         <label for="nome-pf">Nome completo:</label>
-                        <input type="text" class="form-control" id="nome-pf" name="nome-pf">
+                        <input type="text" class="form-control" id="nome-pf" name="nome-pf" required>
                     </div>
                     <div class="form-group">
                         <label for="email-pf">E-mail:</label>
-                        <input type="text" class="form-control" id="email-pf" name="email-pf" onblur="validateEmail()">
+                        <input type="text" class="form-control" id="email-pf" name="email-pf" onblur="validateEmail('email-pf')" required>
                     </div>
                     <div class="form-group">
                         <label for="cep-pf">CEP:</label>
-                        <input type="number" class="form-control" id="cep-pf" name="cep-pf" onblur="findAddr()">
+                        <input type="number" class="form-control" id="cep-pf" name="cep-pf" onblur="findAddr()" required>
                     </div>
                     <div class="form-group">
                       <label for="estado-pf">Estado:</label>
@@ -117,17 +117,17 @@
                     </div>
                     <div class="form-group">
                         <label for="senha">Senha:</label>
-                        <input type="password" class="form-control" id="senha" name="senha">
+                        <input type="password" class="form-control" id="senha" name="senha" required>
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="form-group">
                         <label for="cpf">CPF:</label>
-                        <input type="text" class="form-control" id="cpf" name="cpf" onblur="validateCPF()">
+                        <input type="text" class="form-control" id="cpf" name="cpf" onblur="validateCPF()" required>
                     </div>
                     <div class="form-group">
                         <label for="conf-email-pf">Confirme E-mail:</label>
-                        <input type="text" class="form-control" id="conf-email-pf" name="conf-email-pf" onblur="confirmEmail('email-pf', 'conf-email-pf')">
+                        <input type="text" class="form-control" id="conf-email-pf" name="conf-email-pf" onblur="confirmEmail('email-pf', 'conf-email-pf')" required>
                     </div>
                     <div class="form-group">
                         <label for="pais-pf">País:</label>
@@ -153,60 +153,73 @@
             </div>            
         </form>
         <br>
-            <button class="btn btn-success" onclick=save()>Salvar</button>
+        <button class="btn btn-success hidden" id="pf-save" onclick=save()>Salvar</button>
         <form id="formInstitution" class="hidden">                
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="form-group">
-                        <label for="nome">Nome:</label>
-                        <input type="text" class="form-control" id="nome" name="nome">
-                    </div>
-                    <div class="form-group">
-                        <label for="sobrenome">Sobrenome:</label>
-                        <input type="text" class="form-control" id="sobrenome" name="sobrenome">
-                    </div>
-                    <div class="form-group">
-                        <label for="email">E-mail:</label>
-                        <input type="email" class="form-control" id="email" name="email">
-                    </div>
-                    <div class="form-group">
-                        <label for="telefone">Telefone:</label>
-                        <input type="tel" class="form-control" id="telefone" name="telefone">
-                    </div>
-                    <div class="form-group">
-                        <label for="endereco">Endereço:</label>
-                        <input type="text" class="form-control" id="endereco" name="endereco">
-                    </div>
+          <div class="row">
+              <div class="col-md-6">
+                  <div class="form-group">
+                      <label for="nome-pj">Nome fantasia:</label>
+                      <input type="text" class="form-control" id="nome-pj" name="nome-pj" required>
+                  </div>
+                  <div class="form-group">
+                      <label for="email-pj">E-mail:</label>
+                      <input type="text" class="form-control" id="email-pj" name="email-pj" onblur="validateEmail('email-pj')" required>
+                  </div>
+                  <div class="form-group">
+                      <label for="cep-pj">CEP:</label>
+                      <input type="number" class="form-control" id="cep-pj" name="cep-pj" onblur="findAddr()" required>
+                  </div>
+                  <div class="form-group">
+                    <label for="estado-pj">Estado:</label>
+                    <input type="text" class="form-control" id="estado-pj" name="estado-pj">
                 </div>
-                <div class="col-md-6">
-                    <div class="form-group">
-                        <label for="cidade">Cidade:</label>
-                        <input type="text" class="form-control" id="cidade-" name="cidade-">
-                    </div>
-                    <div class="form-group">
-                        <label for="estado">Estado:</label>
-                        <input type="text" class="form-control" id="estado" name="estado">
-                    </div>
-                    <div class="form-group">
-                        <label for="cep">CEP:</label>
-                        <input type="text" class="form-control" id="cep" name="cep">
-                    </div>
-                    <div class="form-group">
-                        <label for="pais">País:</label>
-                        <input type="text" class="form-control" id="pais" name="pais">
-                    </div>
-                    <div class="form-group">
-                        <label for="senha">Senha:</label>
-                        <input type="password" class="form-control" id="senha" name="senha">
-                    </div>
-                    <div class="form-group">
-                        <label for="confirmar-senha">Confirmar Senha:</label>
-                        <input type="password" class="form-control" id="confirmar-senha" name="confirmar-senha">
-                    </div>
-                </div>
-            </div>
-            <button type="submit" class="btn btn-primary">Cadastrar</button>
-        </form>
+                  <div class="form-group">
+                      <label for="cidade-pj">Cidade:</label>
+                      <input type="text" class="form-control" id="cidade-pj" name="cidade-pj">
+                  </div>
+                  <div class="form-group">
+                      <label for="logradouro-pj">Logradouro:</label>
+                      <input type="text" class="form-control" id="logradouro-pj" name="logradouro-pj">
+                  </div>
+                  <div class="form-group">
+                      <label for="senha">Senha:</label>
+                      <input type="password" class="form-control" id="senha" name="senha" required>
+                  </div>
+              </div>
+              <div class="col-md-6">
+                  <div class="form-group">
+                      <label for="cnpj">Cnpj:</label>
+                      <input type="text" class="form-control" id="cnpj" name="cnpj" onblur="validarCNPJ()" required>
+                  </div>
+                  <div class="form-group">
+                      <label for="conf-email-pj">Confirme E-mail:</label>
+                      <input type="text" class="form-control" id="conf-email-pj" name="conf-email-pj" onblur="confirmEmail('email-pj', 'conf-email-pj')" required>
+                  </div>
+                  <div class="form-group">
+                      <label for="pais-pj">País:</label>
+                      <input type="text" class="form-control" id="pais-pj" name="pais-pj">
+                  </div>
+                  <div class="form-group">
+                      <label for="bairro-pj">Bairro:</label>
+                      <input type="text" class="form-control" id="bairro-pj" name="bairro-pj">
+                  </div>
+                  <div class="form-group">
+                      <label for="numero-pj">Numero:</label>
+                      <input type="text" class="form-control" id="numero-pj" name="numero-pj">
+                  </div>
+                  <div class="form-group">
+                      <label for="completo-end-pj">Complemento:</label>
+                      <input type="text" class="form-control" id="completo-end-pj" name="completo-end-pj">
+                  </div>
+                  <div class="form-group">
+                      <label for="confirmar-senha-pj">Confirmar Senha:</label>
+                      <input type="password" class="form-control" id="confirmar-senha-pj" name="confirmar-senha-pj" onblur="confirmPassword('senha', 'confirmar-senha-pj')">
+                  </div>
+              </div>
+          </div>            
+      </form>
+      <br>
+          <button class="btn btn-success hidden" id="pj-save" onclick=save()>Salvar</button>
         </div>
     </div>
   </div>
