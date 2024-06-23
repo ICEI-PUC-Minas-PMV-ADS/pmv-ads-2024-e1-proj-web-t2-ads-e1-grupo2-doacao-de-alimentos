@@ -99,7 +99,7 @@ Com base na análise das personas foram identificadas as seguintes histórias de
 |------|-----------------------------------------|----|
 |RF-01| A aplicação deve permitir ao usuário cadastrar uma conta.   | ALTA | 
 |RF-02| A aplicação deve permitir ao usuário fazer o login da sua conta cadastrada.   | ALTA | 
-|RF-03| A aplicação deve permitir a instituição cadastre os itens desejados para a doação.    | ALTA |
+|RF-03| A aplicação deve permitir visualizar um vídeo de apresentação do site.   | MÉDIA |
 |RF-04| A aplicação deve permitir que doadores físicos encontrem pontos de coleta de alimentos.  | ALTA |
 |RF-05| A aplicação deve permitir criar campanhas sazonais de doação de alimentos.    | ALTA |
 |RF-06| A aplicação deve permitir e facilitar o contato entre o doador e o receptor do alimento.   | MÉDIA |
