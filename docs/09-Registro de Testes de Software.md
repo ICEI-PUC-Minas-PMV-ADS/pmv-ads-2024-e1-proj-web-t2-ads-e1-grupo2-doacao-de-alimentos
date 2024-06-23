@@ -97,5 +97,13 @@ Pessoa jurídica
 
   <p>Após clicar em 'Login', o usuário se loga no site e recebe uma notificação de aviso que o login foi realizado com sucesso:</p>
   <img src="img/teste-login-enviar.png">
+<<<<<<< HEAD
+=======
+
+  </li>
+
+</ol>
+
+>>>>>>> 6149b0f0292f4b111739816ed2da87803bd6788b
 
 </ol>
