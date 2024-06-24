@@ -9,19 +9,9 @@ Os testes funcionais realizados na aplicação web são descritos a seguir.
   <li> CT-03: Verificar o funcionamento da parte de criação de campanhas.
 
     Responsável: Danilo
-
- <p>Visualizar as campanhas ativas:</p>
-<img src="img/campanha-1.png">
-
- <p>Preencher as informações para cadastro de campanha:</p>
- <img src="img/campanha-2.png">
-
- <p>Retornar para a página de campanhas e verificar se a campanha criada foi adicionada:</p>
- <img src="img/campanha-3(1).png">
-
- <p>Colocando o cursor do mouse em cima da campanha, é possível ver as ifnromações principais da campanha:</p>
- <img src="img/campanha-4(1).png">
  
+ <img src="img/criar-campanha.mp4">
+
  <hr>
 
 
