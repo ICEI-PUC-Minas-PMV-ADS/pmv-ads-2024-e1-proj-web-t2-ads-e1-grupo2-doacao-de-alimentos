@@ -1,3 +1,5 @@
 # Apresentação da Solução
 
-Faça uma apresentação de um resumo de todos o processo de desenvolvimento e no final apresente a solução desenvolvida, usando um pequeno vídeo.
+1. Apresentação de slides
+
+[Turma 2 - Projeto Eixo 01.pdf](https://github.com/user-attachments/files/15949122/Turma.2.-.Projeto.Eixo.01.pdf)
