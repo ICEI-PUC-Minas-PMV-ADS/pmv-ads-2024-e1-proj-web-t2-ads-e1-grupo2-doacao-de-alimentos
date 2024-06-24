@@ -10,7 +10,9 @@ Os testes funcionais realizados na aplicação web são descritos a seguir.
 
     Responsável: Danilo
  
- <img src="img/criar-campanha.mp4">
+
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t2-ads-e1-grupo2-doacao-de-alimentos/assets/119916981/0f87ba3f-eab5-4e4e-b461-3d48831315ac
+
 
  <hr>
 
